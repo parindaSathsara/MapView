@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vietnam Hotels – Phu Quoc Map</title>
+  <title>Vietnam Hotels – Interactive Map</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -253,18 +253,17 @@
 
 <div class="sidebar">
   <div class="sidebar-header">
-    <h1>🇻🇳 Phu Quoc Hotels</h1>
-    <p>Vietnam Hotel Directory – Interactive Map</p>
+    <h1>🇻🇳 Vietnam Hotels</h1>
+    <p>Hanoi · Da Nang · Ho Chi Minh City · Phu Quoc</p>
   </div>
 
   <div class="filters">
     <input type="text" class="search-box" id="searchInput" placeholder="Search hotel name or address…">
+    <select class="filter-select" id="cityFilter">
+      <option value="">All Cities</option>
+    </select>
     <select class="filter-select" id="catFilter">
       <option value="">All Stars</option>
-      <option value="3">⭐ 3-Star</option>
-      <option value="3+">⭐ 3+-Star</option>
-      <option value="4">⭐ 4-Star</option>
-      <option value="5">⭐ 5-Star</option>
     </select>
     <select class="filter-select" id="areaFilter">
       <option value="">All Areas</option>
@@ -282,75 +281,20 @@
 <div id="map"></div>
 
 <script>
-const HOTELS = [
-  {"city":"PHU QUOC","name":"An Phu Hotel","cat":"3","area":"Duong Dong","sic":"Yes","address":"185, 30/4 Street, Duong Dong Town, Phu Quoc, Kien Giang Province","lat":10.2253668,"lng":103.9722793},
-  {"city":"PHU QUOC","name":"Azura Resort Phu Quoc","cat":"3","area":"Duong Dong","sic":"Yes","address":"101/5 Tran Hung Dao Street, Duong Dong Town","lat":10.2057759,"lng":103.9647489},
-  {"city":"PHU QUOC","name":"Bauhinia Resort & Spa Phu Quoc","cat":"3","area":"Duong Dong","sic":"Yes","address":"Lot 10, Lane 91, Tran Hung Dao St., Quarter 7, Duong Dong Town, Kien Giang Province","lat":10.2065581,"lng":103.9658862},
-  {"city":"PHU QUOC","name":"Boulevard Phu Quoc Hotel","cat":"3","area":"Duong Dong","sic":"yes","address":"89 Trần Hưng Đạo, khu phố 7, P. Dương Đông","lat":10.2060729,"lng":103.9634728},
-  {"city":"PHU QUOC","name":"BRENTA PHU QUOC HOTEL","cat":"3","area":"Duong Dong","sic":"yes","address":"118 Tran Hung Dao street, Duong Dong town, Phu Quoc island, Kien Giang province.","lat":10.20724,"lng":103.9661},
-  {"city":"PHU QUOC","name":"Coral Bay Hotel & Resort","cat":"3","area":"Duong Dong","sic":"Yes","address":"118/12 Tran Hung Dao, Duong Dong","lat":10.1966735,"lng":103.9664608},
-  {"city":"PHU QUOC","name":"Free Beach PHQ","cat":"3","area":"-","sic":"yes","address":"126A Trần Hưng Đạo, Khu Phố 7","lat":10.1998404,"lng":103.9673708},
-  {"city":"PHU QUOC","name":"Gaia Hotel Phu Quoc","cat":"3","area":"Duong Dong","sic":"Yes","address":"71 Tran Hung Dao, Ward 7, Duong Dong Town","lat":10.2071216,"lng":103.9629404},
-  {"city":"PHU QUOC","name":"GOLDEN DAISY HOTEL & SPA","cat":"3","area":"Duong Dong","sic":"yes","address":"Group 7, Tran Hung Dao Street, Duong Dong Ward, Phu Quoc City","lat":10.2109034,"lng":103.9617701},
-  {"city":"PHU QUOC","name":"Hawaii Resort Phu Quoc","cat":"3","area":"Duong Dong","sic":"yes","address":"68 Đường Trần Hưng Đạo, Khu phố 7, Phú Quốc","lat":10.2204132,"lng":103.9632756},
-  {"city":"PHU QUOC","name":"Home Park Hotel","cat":"3","area":"Duong Dong","sic":"yes","address":"Hẻm 124 Tran Hung Dao Street, Duong Dong Ward, Phu Quoc City, Kien Giang Province","lat":10.1930096,"lng":103.9671051},
-  {"city":"PHU QUOC","name":"Kim Hoa Resort","cat":"3","area":"Duong Dong","sic":"yes","address":"88/2 Đường Trần Hưng Đạo, Khu phố 7, Phú Quốc","lat":10.2204124,"lng":103.9632738},
-  {"city":"PHU QUOC","name":"Lamer resort & spa","cat":"3","area":"Duong Dong","sic":"yes","address":"118/2/6, Trần Hưng Đạo, Dương Đông","lat":10.20724,"lng":103.9661},
-  {"city":"PHU QUOC","name":"Night Sea Hotel","cat":"4","area":"Duong Dong","sic":"Yes","address":"Alley 124 Tran Hung Dao street, Duong Dong Ward","lat":10.2003302,"lng":103.966438},
-  {"city":"PHU QUOC","name":"Ngoc Chau Phu Quoc Hotel","cat":"3","area":"Duong Dong","sic":"Yes","address":"66G Trần Hưng Đạo, phường Dương Đông, TP Phú Quốc","lat":10.2076374,"lng":103.9622536},
-  {"city":"PHU QUOC","name":"Orange Resort","cat":"3","area":"Duong Dong","sic":"Yes","address":"88/5 Trần Hưng Đạo, Dương Đông","lat":10.2051838,"lng":103.9634902},
-  {"city":"PHU QUOC","name":"Palma Resort","cat":"3","area":"Duong Dong","sic":"Yes","address":"107/9 Tran Hung Dao Str","lat":10.2022403,"lng":103.9648241},
-  {"city":"PHU QUOC","name":"Lavender Resort Phu Quoc","cat":"3","area":"Duong Dong","sic":"yes","address":"107/1 Trần Hưng Đạo, Đặc KhuPhúQuốc","lat":10.2022403,"lng":103.9648241},
-  {"city":"PHU QUOC","name":"Phu Quoc Village","cat":"3","area":"Duong Dong","sic":"yes","address":"52B/26 Đ. 30 Tháng 4, TT. Dương Đông","lat":10.2138703,"lng":103.9633056},
-  {"city":"PHU QUOC","name":"Phu Van Resort PHQ","cat":"3","area":"Duong Dong","sic":"yes","address":"126 Đường Trần Hưng Đạo, TT. Dương Đông","lat":10.1998404,"lng":103.9673708},
-  {"city":"PHU QUOC","name":"Rock Mila Phu Quoc Hotel","cat":"3","area":"Duong Dong","sic":"Yes","address":"63/7 Tran Hung Dao Street, Duong Dong Town","lat":10.2109034,"lng":103.9617701},
-  {"city":"PHU QUOC","name":"Star Hill Resort","cat":"3","area":"Duong Dong","sic":"yes","address":"Tran Hung Dao, Ward 07, Duong Dong Town, Phu Quoc","lat":10.2051358,"lng":103.9637468},
-  {"city":"PHU QUOC","name":"Summer Dream","cat":"3","area":"Duong Dong","sic":"yes","address":"Group 8 , Tran Hung Dao Street, Quarter 7, Duong Dong Town, Phu Quoc","lat":10.2142753,"lng":103.9589645},
-  {"city":"PHU QUOC","name":"Tahiti Central Hotel","cat":"3","area":"Duong Dong","sic":"Yes","address":"51 – 53 Tran Hung Dao Street, Duong Dong Ward","lat":10.207919,"lng":103.9622897},
-  {"city":"PHU QUOC","name":"Thanh Kieu Beach Resort","cat":"3","area":"Duong Dong","sic":"yes","address":"100c/14 Tran Hung Dao, Duong Dong Town, Phu Quoc Island","lat":10.1978599,"lng":103.9635698},
-  {"city":"PHU QUOC","name":"The Praha Hotel Phu Quoc","cat":"3","area":"Duong To","sic":"Yes","address":"Tran Hung Dao Street, Duong To","lat":10.1902764,"lng":103.9677063},
-  {"city":"PHU QUOC","name":"Tropicana Resort Phu Quoc","cat":"3","area":"Duong Dong","sic":"Yes","address":"100c/4, ward 7, Tran Hung Đao,Duong Dong Town","lat":10.2109034,"lng":103.9617701},
-  {"city":"PHU QUOC","name":"Venus Hotel PQ","cat":"3","area":"Duong Dong","sic":"yes","address":"Số 60A, đường Trần HưngĐạo, Dương Đông","lat":10.2105615,"lng":103.9600396},
-  {"city":"PHU QUOC","name":"VIDA LOCA RESORT & SUNSET BEACH BAR","cat":"3","area":"Duong Dong","sic":"yes","address":"118/11 Tran Hung Dao, Duong Dong, Phu Quoc","lat":10.20724,"lng":103.9661},
-  {"city":"PHU QUOC","name":"Levan Hotel Phu Quoc","cat":"3+","area":"Duong Dong","sic":"Yes","address":"Số 79, Đường Trần Hưng Đạo, Thị trấn Dương Đông","lat":10.2064764,"lng":103.9631857},
-  {"city":"PHU QUOC","name":"Amarin Resort & Spa","cat":"4","area":"Duong To","sic":"Yes","address":"Group 2, Cua Lap Hamlet, Duong To Commune","lat":10.1775183,"lng":103.971782},
-  {"city":"PHU QUOC","name":"Aquasun Hotel","cat":"4","area":"Duong Dong","sic":"yes","address":"Allley 124, Tran Hung Dao, Ward 7, Duong Dong, Phu Quoc, Kien Giang","lat":10.2003302,"lng":103.966438},
-  {"city":"PHU QUOC","name":"Anja Beach Resort & Spa Phu Quoc","cat":"4","area":"Duong To","sic":"Yes","address":"Group 2, Cua Lap Area","lat":10.1788272,"lng":103.9726306},
-  {"city":"PHU QUOC","name":"AVS Hotel Phu Quoc","cat":"4","area":"Duong Dong","sic":"Yes","address":"100/C2 Tran Hung Dao, Duong Dong Town","lat":10.2017342,"lng":103.9644833},
-  {"city":"PHU QUOC","name":"Daystar Hotel Phu Quoc","cat":"4","area":"Duong Dong","sic":"Yes","address":"69B Tran Hung Dao Street, Quarter 7, Duong Dong, Phu Quoc Special Zone, An Giang Province","lat":10.2099136,"lng":103.9624537},
-  {"city":"PHU QUOC","name":"Cassia Cottage Resort","cat":"4","area":"Duong Dong","sic":"Yes","address":"KP 7, Tran Hung Dao St, Duong Dong Town, Phu Quoc, Kien Giang, Vietnam","lat":10.2109034,"lng":103.9617701},
-  {"city":"PHU QUOC","name":"L'Azure Resort and Spa","cat":"4","area":"Duong Dong","sic":"yes","address":"64, Tran Hung Dao Street, Duong Dong Town, Phu Quoc Island, Kien Giang Province, Vietnam.","lat":10.2069617,"lng":103.9623338},
-  {"city":"PHU QUOC","name":"Lahana Resort Phu Quoc & Spa","cat":"4","area":"Duong Dong","sic":"Yes","address":"91/3 Group 10, Ward 7, Tran Hung Dao Street","lat":10.2008815,"lng":103.9715436},
-  {"city":"PHU QUOC","name":"Luxor Boutique Hotel Phu Quoc","cat":"4","area":"Duong Dong","sic":"Yes","address":"100C/2 Tran Hung Dao, Group 7, Duong Dong Ward","lat":10.2005938,"lng":103.9647645},
-  {"city":"PHU QUOC","name":"M Hotel Phu Quoc","cat":"4","area":"Duong Dong","sic":"Yes","address":"46 Tran Hung Dao, Duong Dong","lat":10.2131218,"lng":103.9587855},
-  {"city":"PHU QUOC","name":"M Village Phu Quoc","cat":"4","area":"Duong To","sic":"Yes","address":"169 - 189 Tran Hung Dao, Cua Lap, Duong To","lat":10.1902764,"lng":103.9677063},
-  {"city":"PHU QUOC","name":"Maris Beach Hotel","cat":"4","area":"Duong To","sic":"yes","address":"152 Tran Hung Dao, Phu Quoc, Vietnam","lat":10.1885687,"lng":103.9684928},
-  {"city":"PHU QUOC","name":"Mercury Phu Quoc","cat":"4","area":"Duong To","sic":"yes","address":"Tổ 1, ấp Dương Tơ, xã Dương Tơ, Tp.Phú Quốc, Kiên Giang, Việt Nam","lat":10.289879,"lng":103.98402},
-  {"city":"PHU QUOC","name":"Muong Thanh Luxury","cat":"4","area":"-","sic":"yes","address":"Tổ 3 Ấp, Đường Bào, Huyện Phú Quốc","lat":10.1310547,"lng":103.9898233},
-  {"city":"PHU QUOC","name":"Phu Quoc Ocean Pearl Hotel","cat":"4","area":"Duong Dong","sic":"Yes","address":"99 Tran Hung Dao Street","lat":10.204855,"lng":103.9642769},
-  {"city":"PHU QUOC","name":"Saigon Phu Quoc resort and spa","cat":"4","area":"Duong Dong","sic":"yes","address":"62 Trần Hưng Đạo, Dương Đông, Đảo Phú Quốc","lat":10.2085133,"lng":103.9607626},
-  {"city":"PHU QUOC","name":"Sunset Beach Resort & Spa","cat":"4","area":"Duong Dong","sic":"Yes","address":"100C/2 Tran Hung Dao Str, Duong Dong","lat":10.2005938,"lng":103.9647645},
-  {"city":"PHU QUOC","name":"Tahiti Beach Hotel","cat":"4","area":"Duong Dong","sic":"Yes","address":"92A Tran Hung Dao","lat":10.2037553,"lng":103.9641392},
-  {"city":"PHU QUOC","name":"Tahiti Resort","cat":"4","area":"Duong Dong","sic":"Yes","address":"90 - 92 Tran Hung Dao","lat":10.2032315,"lng":103.9641453},
-  {"city":"PHU QUOC","name":"The Palmy Phu Quoc Resort & Spa","cat":"4","area":"Duong To","sic":"Yes","address":"Tran Hung Dao street, Cua Lap, Duong To","lat":10.1902764,"lng":103.9677063},
-  {"city":"PHU QUOC","name":"The Up Phu Quoc Hotel","cat":"4","area":"Duong To","sic":"Yes","address":"Plot of land number 253, map sheet number 10, civil group 3, Cua Lap Hamlet, Duong To Commune","lat":10.1775183,"lng":103.971782},
-  {"city":"PHU QUOC","name":"Tom Hill Boutique Resort & Spa","cat":"4","area":"Duong Dong","sic":"Yes","address":"121|12A Tran Hung Dao Street, Duong Dong Ward","lat":10.2013518,"lng":103.9691641},
-  {"city":"PHU QUOC","name":"Andochine Resort & Spa","cat":"5","area":"Duong To","sic":"yes","address":"Duong Bao, Duong To Commune, Phu Quoc","lat":10.1775183,"lng":103.971782},
-  {"city":"PHU QUOC","name":"Dusit Princess Moonrise Beach Resort Phu Quoc","cat":"5","area":"Duong To","sic":"Yes","address":"Tran Hung Dao Street, Group 2, Cua Lap Village, Duong To Commune","lat":10.1857758,"lng":103.9684888},
-  {"city":"PHU QUOC","name":"La Veranda Resort Phu Quoc - MGallery","cat":"5","area":"Duong To","sic":"Yes","address":"Tran Hung Dao Street, Quarter 7","lat":10.1725825,"lng":103.9706254},
-  {"city":"PHU QUOC","name":"Novotel Phu Quoc Resort","cat":"5","area":"Bai Truong","sic":"yes","address":"Group 5, Duong Bao Duong To Area","lat":10.1902764,"lng":103.9677063},
-  {"city":"PHU QUOC","name":"Sailing Club Signature Resort Phu Quoc","cat":"5","area":"Duong To","sic":"yes","address":"Dương Tơ, Phú Quốc, Kiên Giang","lat":10.1820178,"lng":104.0499639},
-  {"city":"PHU QUOC","name":"Salinda Resort Phu Quoc Island","cat":"5","area":"-","sic":"Yes","address":"Duong Dong","lat":10.3032417,"lng":103.9786433},
-  {"city":"PHU QUOC","name":"Seashells Phu Quoc Hotel & Spa","cat":"5","area":"Duong Dong","sic":"Yes","address":"01 Vo Thi Sau, Ward 2 Duong Dong","lat":10.2144247,"lng":103.9584688},
-  {"city":"PHU QUOC","name":"Sunset Sanato Resort & Villas","cat":"5","area":"Bai Truong","sic":"Yes","address":"Group 3, Duong Bao Hamlet","lat":10.1310547,"lng":103.9898233},
-  {"city":"PHU QUOC","name":"Vinpearl Wonderworld Phu Quoc","cat":"5","area":"-","sic":"Yes","address":"Bai Dai Area","lat":10.338056,"lng":103.848618},
-  {"city":"PHU QUOC","name":"Sun Viet Resort","cat":"3","area":"Duong Dong","sic":"Yes","address":"60 Đường Trần Hưng Đạo, Khu 1, Phú Quốc, Kiên Giang","lat":10.2104339,"lng":103.9601008},
-  {"city":"PHU QUOC","name":"Sea Star Resort Phu Quoc","cat":"3","area":"Duong Dong","sic":"yes","address":"98/2 Đường Trần Hưng Đạo, Phường 7, Phú Quốc, Kiên Giang 700000","lat":10.2204126,"lng":103.9632744},
-  {"city":"PHU QUOC","name":"Daisy Resort","cat":"3","area":"Duong To","sic":"Yes","address":"127 Trần Hưng Đạo, Dương Đông, Phú Quốc, Kiên Giang","lat":10.1989808,"lng":103.9694207}
-];
+let HOTELS = [];
+
+fetch('hotels_geocoded.json')
+  .then(r => r.json())
+  .then(data => {
+    HOTELS = data.filter(h => h.lat && h.lng);
+    if (typeof google !== 'undefined' && google.maps) initMap();
+    else window._hotelsReady = true;
+  });
 
 // Color map by category
 const CAT_COLORS = {
+  "1":  { bg: "#9E9E9E", glyph: "1★" },
+  "2":  { bg: "#78909C", glyph: "2★" },
   "3":  { bg: "#4285F4", glyph: "3★" },
   "3+": { bg: "#34A853", glyph: "3+" },
   "4":  { bg: "#FBBC05", glyph: "4★" },
@@ -360,12 +304,13 @@ const CAT_COLORS = {
 let map, markers = [], infoWindow, activeCardIdx = null;
 
 function initMap() {
-  // Center on Phu Quoc
-  const center = { lat: 10.210, lng: 103.960 };
+  if (!HOTELS.length) { window._mapReady = true; return; }
+
+  const center = { lat: 16.0, lng: 108.0 };
 
   map = new google.maps.Map(document.getElementById("map"), {
     center,
-    zoom: 13,
+    zoom: 6,
     mapTypeId: "roadmap",
     styles: [
       { featureType: "poi", stylers: [{ visibility: "simplified" }] },
@@ -417,20 +362,55 @@ function initMap() {
     markers.push(marker);
   });
 
-  // Populate area filter
-  const areas = [...new Set(HOTELS.map(h => h.area).filter(a => a && a !== "-"))].sort();
+  // Populate city filter
+  const cities = [...new Set(HOTELS.map(h => h.city))].sort();
+  const cityFilter = document.getElementById("cityFilter");
+  cities.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = c;
+    cityFilter.appendChild(opt);
+  });
+
+  // Populate cat filter
+  const cats = [...new Set(HOTELS.map(h => h.cat))].sort((a, b) => parseFloat(a) - parseFloat(b));
+  const catFilter = document.getElementById("catFilter");
+  cats.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = `⭐ ${c}-Star`;
+    catFilter.appendChild(opt);
+  });
+
+  populateAreaFilter();
+
+  document.getElementById("totalCount").textContent = HOTELS.length;
+
+  renderList();
+  fitBounds();
+  bindFilters();
+}
+
+function populateAreaFilter() {
+  const cityVal = document.getElementById("cityFilter").value;
+  const filtered = cityVal ? HOTELS.filter(h => h.city === cityVal) : HOTELS;
+  const areas = [...new Set(filtered.map(h => h.area).filter(a => a && a !== "-"))].sort();
   const areaFilter = document.getElementById("areaFilter");
+  areaFilter.innerHTML = '<option value="">All Areas</option>';
   areas.forEach(a => {
     const opt = document.createElement("option");
     opt.value = a;
     opt.textContent = a;
     areaFilter.appendChild(opt);
   });
+}
 
-  document.getElementById("totalCount").textContent = HOTELS.length;
-
-  renderList();
-  bindFilters();
+function fitBounds() {
+  const visible = markers.filter(m => m.getVisible());
+  if (!visible.length) return;
+  const bounds = new google.maps.LatLngBounds();
+  visible.forEach(m => bounds.extend(m.getPosition()));
+  map.fitBounds(bounds);
 }
 
 function getStars(cat) {
@@ -451,6 +431,7 @@ function openInfoWindow(idx) {
     <div class="iw-container">
       <h3>${escapeHtml(h.name)}</h3>
       <div class="iw-stars">${stars} (${escapeHtml(h.cat)}-Star)</div>
+      <div class="iw-row"><span class="iw-label">City:</span> ${escapeHtml(h.city)}</div>
       <div class="iw-row"><span class="iw-label">Area:</span> ${escapeHtml(h.area)}</div>
       <div class="iw-row"><span class="iw-label">Address:</span> ${escapeHtml(h.address)}</div>
       <div class="iw-row">${sicLabel}</div>
@@ -475,6 +456,7 @@ function highlightCard(idx) {
 
 function renderList() {
   const query = document.getElementById("searchInput").value.toLowerCase();
+  const cityVal = document.getElementById("cityFilter").value;
   const catVal = document.getElementById("catFilter").value;
   const areaVal = document.getElementById("areaFilter").value.toLowerCase();
   const list = document.getElementById("hotelList");
@@ -483,16 +465,15 @@ function renderList() {
   let count = 0;
 
   HOTELS.forEach((h, i) => {
-    // Filter
     const matchSearch = !query
       || h.name.toLowerCase().includes(query)
       || h.address.toLowerCase().includes(query);
+    const matchCity = !cityVal || h.city === cityVal;
     const matchCat = !catVal || h.cat === catVal;
     const matchArea = !areaVal || h.area.toLowerCase() === areaVal;
 
-    const visible = matchSearch && matchCat && matchArea;
+    const visible = matchSearch && matchCity && matchCat && matchArea;
 
-    // Toggle marker
     if (markers[i]) markers[i].setVisible(visible);
 
     if (!visible) return;
@@ -530,8 +511,13 @@ function onCardClick(idx) {
 
 function bindFilters() {
   document.getElementById("searchInput").addEventListener("input", renderList);
-  document.getElementById("catFilter").addEventListener("change", renderList);
-  document.getElementById("areaFilter").addEventListener("change", renderList);
+  document.getElementById("cityFilter").addEventListener("change", () => {
+    populateAreaFilter();
+    renderList();
+    fitBounds();
+  });
+  document.getElementById("catFilter").addEventListener("change", () => { renderList(); fitBounds(); });
+  document.getElementById("areaFilter").addEventListener("change", () => { renderList(); fitBounds(); });
 }
 
 function escapeHtml(str) {
@@ -542,8 +528,14 @@ function escapeHtml(str) {
 </script>
 
 <script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0Z8_GzoG68yaI8pAEkA_03Ig1N-6qki8&callback=initMap"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0Z8_GzoG68yaI8pAEkA_03Ig1N-6qki8&callback=onMapsReady"
   async defer>
+</script>
+<script>
+function onMapsReady() {
+  if (HOTELS.length) initMap();
+  else window._mapReady = true;
+}
 </script>
 
 </body>

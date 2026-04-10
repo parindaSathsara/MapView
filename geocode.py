@@ -4,26 +4,29 @@ API_KEY = "AIzaSyA0Z8_GzoG68yaI8pAEkA_03Ig1N-6qki8"
 GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 
 wb = openpyxl.load_workbook('Vietnam Lat Long.xlsx')
-ws = wb.active
 
 hotels = []
-for row in ws.iter_rows(min_row=2, values_only=True):
-    city, name, cat, area, sic, address = row
-    if not name or not address:
-        continue
-    # Clean address
-    addr = str(address).replace('\n', ' ').strip()
-    # Append Phu Quoc Vietnam for better geocoding
-    search_addr = f"{addr}, Phu Quoc, Vietnam"
-    hotels.append({
-        "city": str(city or ""),
-        "name": str(name),
-        "cat": str(cat or ""),
-        "area": str(area or ""),
-        "sic": str(sic or ""),
-        "address": addr,
-        "search_address": search_addr
-    })
+for sheet_name in wb.sheetnames:
+    ws = wb[sheet_name]
+    print(f"Reading sheet: {sheet_name} ({ws.max_row - 1} hotels)")
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        city, name, cat, area, sic, address = row
+        if not name or not address:
+            continue
+        # Clean address
+        addr = str(address).replace('\n', ' ').strip()
+        # Use city from the row for better geocoding
+        city_str = str(city or sheet_name).strip()
+        search_addr = f"{addr}, {city_str}, Vietnam"
+        hotels.append({
+            "city": city_str,
+            "name": str(name),
+            "cat": str(cat or ""),
+            "area": str(area or ""),
+            "sic": str(sic or ""),
+            "address": addr,
+            "search_address": search_addr
+        })
 
 print(f"Total hotels: {len(hotels)}")
 
