@@ -1,0 +1,4622 @@
+[
+  {
+    "city": "HANOI",
+    "name": "A25 Hotel - 26 Hang Non",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "26 Hàng Nón",
+    "lat": 21.0326204,
+    "lng": 105.8480358
+  },
+  {
+    "city": "HANOI",
+    "name": "A25 Hotel - 15 Hang Than",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "15 Hàng Than",
+    "lat": 21.0428655,
+    "lng": 105.8472366
+  },
+  {
+    "city": "HANOI",
+    "name": "A25 Hotel - 19 Cha Ca",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "19 Chả Cá",
+    "lat": 21.035595,
+    "lng": 105.8493505
+  },
+  {
+    "city": "HANOI",
+    "name": "A25 Hotel - 19 Phan Dinh Phung",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "19 Phan Đình Phùng",
+    "lat": 21.0398327,
+    "lng": 105.845302
+  },
+  {
+    "city": "HANOI",
+    "name": "A25 Hotel - 25 Dich Vong Hau",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "25 Dịch Vọng Hậu",
+    "lat": 21.033074,
+    "lng": 105.7874735
+  },
+  {
+    "city": "HANOI",
+    "name": "Carillon Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "35 Hang Dong Street, Hoan Kiem District, Hanoi",
+    "lat": 21.0357939,
+    "lng": 105.8477186
+  },
+  {
+    "city": "HANOI",
+    "name": "Eco Luxury Hotel Hanoi",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "17 Cua Dong street",
+    "lat": 21.034308,
+    "lng": 105.8466522
+  },
+  {
+    "city": "HANOI",
+    "name": "First Eden Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "45B Hang Bun",
+    "lat": 21.0418049,
+    "lng": 105.8451529
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Art Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "6A Hang But Str",
+    "lat": 21.0349782,
+    "lng": 105.8478729
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Legend Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "10 Chan Cam Str",
+    "lat": 21.0302119,
+    "lng": 105.8484206
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Amour Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "18 Chan Cam Str",
+    "lat": 21.0303084,
+    "lng": 105.8481243
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Legend Palace Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "02 Ngõ Nguyễn Hữu Huân Str",
+    "lat": 21.0331693,
+    "lng": 105.8547636
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Rooster Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "17 Hang Ga str",
+    "lat": 21.0359304,
+    "lng": 105.8472085
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Sun Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "33 Hang Quat",
+    "lat": 21.0326063,
+    "lng": 105.8493603
+  },
+  {
+    "city": "HANOI",
+    "name": "Haibay Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "27 Hang Bong, Hang Gai Ward",
+    "lat": 21.0307955,
+    "lng": 105.8484744
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Anise Hotel & Spa",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "22 Quan Thanh Street, Quan Thanh Ward",
+    "lat": 21.0404906,
+    "lng": 105.8464942
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Bella Rosa Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "21 Cau Go Str",
+    "lat": 21.0321,
+    "lng": 105.8532884
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Bella Rosa Trendy Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Luong Ngoc Quyen Str",
+    "lat": 21.0348305,
+    "lng": 105.8531411
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Brilliant Hotel & Spa",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 44 Hang Trong, Hoan Kiem Ward",
+    "lat": 21.029314,
+    "lng": 105.8444084
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Capital Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "54-56 Au Trieu str, Hoan Kiem",
+    "lat": 21.0285392,
+    "lng": 105.8482026
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Center Silk Charming Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 40 Mã Mây",
+    "lat": 21.0354319,
+    "lng": 105.8534902
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Center Silk Classic Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 41 Bát Sứ",
+    "lat": 21.034524,
+    "lng": 105.84737
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Center Silk Lullaby Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "16 Ngõ Trạm",
+    "lat": 21.0307452,
+    "lng": 105.8454772
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Chic Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "51-53 Bat Su",
+    "lat": 21.0341973,
+    "lng": 105.8473719
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Exclusive Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "40 Hang Dieu Street, Hoan Kiem, Hanoi",
+    "lat": 21.0333298,
+    "lng": 105.8472102
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Golden Holiday Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "43 Hang Dong, Hang Bo Ward",
+    "lat": 21.0357656,
+    "lng": 105.8477217
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi HM Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 3, Hàng dầu str.",
+    "lat": 21.0320826,
+    "lng": 105.8539696
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Kingly Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 8 Lý Thái Tổ, Phường Lý Thái Tổ",
+    "lat": 21.0311616,
+    "lng": 105.8545604
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi La Selva Central Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "90 Cau Go",
+    "lat": 21.0323151,
+    "lng": 105.8520333
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Little Town Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "77 Hang Luoc",
+    "lat": 21.037175,
+    "lng": 105.8485917
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Nostalgia Hotel & Spa",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "13 - 15 Lương Ngọc Quyến",
+    "lat": 21.2648668,
+    "lng": 105.8572125
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Plaza Suite Hotel & Spa",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "13 Đào Duy Từ",
+    "lat": 21.0370446,
+    "lng": 105.852481
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Siva Luxury Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "31 Hang Ga",
+    "lat": 21.0356319,
+    "lng": 105.8471787
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Solo Hostel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "35 - 37 Ma May Str",
+    "lat": 21.0356558,
+    "lng": 105.8534358
+  },
+  {
+    "city": "HANOI",
+    "name": "Hong Ngoc Cochinchine Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "95 - 97 Nguyen Truong To",
+    "lat": 21.0427393,
+    "lng": 105.8441698
+  },
+  {
+    "city": "HANOI",
+    "name": "Hong Ngoc Dynastie Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "30 - 34 Hang Manh",
+    "lat": 21.0317058,
+    "lng": 105.8482132
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Harmonia Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "98 Hang Gai",
+    "lat": 21.0316273,
+    "lng": 105.8494042
+  },
+  {
+    "city": "HANOI",
+    "name": "La Dolce Vita Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "53 Hang Bo Street",
+    "lat": 21.0336782,
+    "lng": 105.8492024
+  },
+  {
+    "city": "HANOI",
+    "name": "La Passion Hotel & Apartment",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 64 Phat Loc Str",
+    "lat": 21.0339493,
+    "lng": 105.8537677
+  },
+  {
+    "city": "HANOI",
+    "name": "La Sante Hotel & Spa",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "42 Chau Long Street, Truc Bach",
+    "lat": 21.0453533,
+    "lng": 105.8424076
+  },
+  {
+    "city": "HANOI",
+    "name": "Labeaute Boutique Hotel & Spa",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Trung Yen Lane, Dinh Liet Street",
+    "lat": 21.0330732,
+    "lng": 105.8518984
+  },
+  {
+    "city": "HANOI",
+    "name": "Labeaute De Hanoi",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "15 Trung Yen Lane,Dinh Liet Str",
+    "lat": 21.0323956,
+    "lng": 105.8514692
+  },
+  {
+    "city": "HANOI",
+    "name": "Little Diamond Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "59 Hàng Cót, Hàng Mã",
+    "lat": 21.0369639,
+    "lng": 105.8472041
+  },
+  {
+    "city": "HANOI",
+    "name": "L'amant de Hanoi Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "72 Nguyen Huu Huan, Old Quarter",
+    "lat": 21.0328044,
+    "lng": 105.8543058
+  },
+  {
+    "city": "HANOI",
+    "name": "MayFlower Hotel",
+    "cat": "3* boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Hàng Rươi",
+    "lat": 21.0369653,
+    "lng": 105.8480766
+  },
+  {
+    "city": "HANOI",
+    "name": "Memory Central Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Alley 90 Tran Nhat Duat Street",
+    "lat": 21.0364484,
+    "lng": 105.8535132
+  },
+  {
+    "city": "HANOI",
+    "name": "Silk Path Boutique Hanoi Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "21 Hang Khay Str",
+    "lat": 21.0255456,
+    "lng": 105.8524753
+  },
+  {
+    "city": "HANOI",
+    "name": "Thang Long Espana Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "63 Nguyen Truong To Str., Ba Dinh Ward",
+    "lat": 21.0425687,
+    "lng": 105.8450956
+  },
+  {
+    "city": "HANOI",
+    "name": "The Sono Hanoi",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 56 Hàng Đậu, Đồng Xuân , Hoàn Kiếm, Hà Nội",
+    "lat": 21.0399,
+    "lng": 105.848289
+  },
+  {
+    "city": "HANOI",
+    "name": "TK123 Hanoi Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 34, Nam Ngu Str., Cua Nam Ward",
+    "lat": 21.0265413,
+    "lng": 105.8422424
+  },
+  {
+    "city": "HANOI",
+    "name": "Army Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "1A Nguyen Tri Phuong",
+    "lat": 21.0402265,
+    "lng": 105.8424694
+  },
+  {
+    "city": "HANOI",
+    "name": "Aurora Central Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "53 Hang Chieu Str., Hoan Kiem ward",
+    "lat": 21.0370745,
+    "lng": 105.8510936
+  },
+  {
+    "city": "HANOI",
+    "name": "Aurora Oriental Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "yes",
+    "address": "29 Ly Thai To, Hoan Kiem, HN",
+    "lat": 21.0291085,
+    "lng": 105.8555668
+  },
+  {
+    "city": "HANOI",
+    "name": "Aurora Premium Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "61 Hang Be Str., Hoan Kiem ward",
+    "lat": 21.0324245,
+    "lng": 105.8538951
+  },
+  {
+    "city": "HANOI",
+    "name": "Babylon Premium Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "05 - 07 Hang Hom",
+    "lat": 21.0318341,
+    "lng": 105.849097
+  },
+  {
+    "city": "HANOI",
+    "name": "Conifer Grand Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 42 Tho Xuong",
+    "lat": 21.0287754,
+    "lng": 105.8481798
+  },
+  {
+    "city": "HANOI",
+    "name": "Dream Premium Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No.30 Cua Nam, Hoan Kiem,Hanoi",
+    "lat": 21.0278743,
+    "lng": 105.8421093
+  },
+  {
+    "city": "HANOI",
+    "name": "Eliana Premio Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "108 Hang Bong",
+    "lat": 21.0298845,
+    "lng": 105.8461277
+  },
+  {
+    "city": "HANOI",
+    "name": "Flower Garden Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "46 Nguyen Truong To Street",
+    "lat": 21.0432079,
+    "lng": 105.8437309
+  },
+  {
+    "city": "HANOI",
+    "name": "Flora Centre Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 Lương Văn Can Str,",
+    "lat": 21.033384,
+    "lng": 105.8498155
+  },
+  {
+    "city": "HANOI",
+    "name": "Golden Silk Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "109-111 Hang Gai Street",
+    "lat": 21.0313796,
+    "lng": 105.8494169
+  },
+  {
+    "city": "HANOI",
+    "name": "Grand Cititel Hanoi Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "13B Tong Dan Street, Trang Tien Ward",
+    "lat": 21.0272069,
+    "lng": 105.857678
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Boutique Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 7 Ngo Gach, Hoan Kiem Ward",
+    "lat": 21.0362072,
+    "lng": 105.8504521
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Calista Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "161-163 Hàng Bông (Ngõ Hội Vũ)",
+    "lat": 21.0292275,
+    "lng": 105.8453327
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Center Silk Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 16 Chân cầm",
+    "lat": 21.0305303,
+    "lng": 105.8484957
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Center Silk Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 22a Tạ Hiện",
+    "lat": 21.0345362,
+    "lng": 105.8520796
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Center Silk Premium Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 22 Chân cầm",
+    "lat": 21.0302508,
+    "lng": 105.8480068
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Central Hotel & Residences",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "5-7 Hoi Vu",
+    "lat": 21.028892,
+    "lng": 105.8458393
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Emerald Waters Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "47 Lo Su",
+    "lat": 21.0313176,
+    "lng": 105.8551441
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Grandeur Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "67 Hang Than, Ba Dinh",
+    "lat": 21.0406654,
+    "lng": 105.8477332
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Harmonia Hotel & Spa",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "98 Hang Gai St – Hoan Kiem Dist",
+    "lat": 21.0316273,
+    "lng": 105.8494042
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Marvellous Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No.55 Duong Thanh Street",
+    "lat": 21.0313206,
+    "lng": 105.8471541
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Paon Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "27 Hang Thung Str",
+    "lat": 21.0323125,
+    "lng": 105.8548065
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Pearl Hotel",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 6, Bao Khanh lane, Hang Trong ward",
+    "lat": 21.0305447,
+    "lng": 105.8503229
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoian Central Hotel & Spa",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "42 Hang Cot Str",
+    "lat": 21.0377662,
+    "lng": 105.8470434
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Fiesta Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 9 Hang muoi, Ly thai to, Hoan Kiem, Ha Noi",
+    "lat": 21.0345038,
+    "lng": 105.8548169
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Fiesta Grand  Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 65 Hang Be , Hang Bac, Hoan Kiem, Ha Noi",
+    "lat": 21.0323386,
+    "lng": 105.8538922
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Fiesta Central Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 18 Hang Duong, Hang Bac, Hoan Kiem, Ha Noi.",
+    "lat": 21.0365271,
+    "lng": 105.8498046
+  },
+  {
+    "city": "HANOI",
+    "name": "HÔTEL De SOURIANT Boutique Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "21 Luong Ngoc Quyen Str.",
+    "lat": 21.0347937,
+    "lng": 105.8533675
+  },
+  {
+    "city": "HANOI",
+    "name": "Hotel De Rond",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "15A Tong Dan Str",
+    "lat": 21.0270478,
+    "lng": 105.8576844
+  },
+  {
+    "city": "HANOI",
+    "name": "Imperial Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "87 Hang Bac St, Ward Hang Bac, Hang Trong Dist",
+    "lat": 21.0338077,
+    "lng": 105.8522221
+  },
+  {
+    "city": "HANOI",
+    "name": "Ja Cosmo Hotel and Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "23 Lo Su",
+    "lat": 21.0311227,
+    "lng": 105.8556976
+  },
+  {
+    "city": "HANOI",
+    "name": "L’HÔTEL du LAC Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "35-37 Hang Trong str,Hang Trong ward,Hoan Kiem Dist,Hanoi Old Quarter",
+    "lat": 21.0296243,
+    "lng": 105.8503076
+  },
+  {
+    "city": "HANOI",
+    "name": "L'Signature Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "4A Bao Khanh ng.",
+    "lat": 21.0304478,
+    "lng": 105.8508571
+  },
+  {
+    "city": "HANOI",
+    "name": "La Mejor Hotel & Sky Bar",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No.22 Ta Hien Street",
+    "lat": 21.0345453,
+    "lng": 105.8521029
+  },
+  {
+    "city": "HANOI",
+    "name": "La Nueva Boutique Hotel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "32 Lo Su St.",
+    "lat": 21.0316027,
+    "lng": 105.854983
+  },
+  {
+    "city": "HANOI",
+    "name": "La Passion Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "26 Hang Thung Str",
+    "lat": 21.0322403,
+    "lng": 105.8542608
+  },
+  {
+    "city": "HANOI",
+    "name": "La Passion Premium Cau Go Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 7 Cau Go Str",
+    "lat": 21.032716,
+    "lng": 105.8530459
+  },
+  {
+    "city": "HANOI",
+    "name": "La Siesta Classic Hang Thung Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "21 Hang Thung street",
+    "lat": 21.0319795,
+    "lng": 105.8550381
+  },
+  {
+    "city": "HANOI",
+    "name": "La Siesta Classic Ma May Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "94 Ma May Street",
+    "lat": 21.0342048,
+    "lng": 105.8535124
+  },
+  {
+    "city": "HANOI",
+    "name": "La Siesta Premium Hang Be Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "27 Hang Be street",
+    "lat": 21.0331202,
+    "lng": 105.8540981
+  },
+  {
+    "city": "HANOI",
+    "name": "La Siesta Premium Lakeside",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 4-6 P. Bà Triệu, St, Hoàn Kiếm, Hà Nội",
+    "lat": 21.025683,
+    "lng": 105.8513915
+  },
+  {
+    "city": "HANOI",
+    "name": "La Sinfonía Citadel Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "12 – 14 Dinh Ngang, Cua Nam",
+    "lat": 21.028083,
+    "lng": 105.842611
+  },
+  {
+    "city": "HANOI",
+    "name": "La Sinfonía del Rey Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "33-35 Hang Dau, Ly Thai To",
+    "lat": 21.0311385,
+    "lng": 105.8540458
+  },
+  {
+    "city": "HANOI",
+    "name": "La Sinfonía Majesty Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "01 Cau Go, Hang Bac",
+    "lat": 21.0321189,
+    "lng": 105.8535472
+  },
+  {
+    "city": "HANOI",
+    "name": "Le Chanvre Hanoi Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "84-86 Hàng Gai, Hoàn Kiếm, Hà Nội",
+    "lat": 21.0317858,
+    "lng": 105.8496544
+  },
+  {
+    "city": "HANOI",
+    "name": "Le Jardin Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "46A Nguyen Truong To",
+    "lat": 21.043077,
+    "lng": 105.8438786
+  },
+  {
+    "city": "HANOI",
+    "name": "Le Jardin Hotel Haute Couture",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "105 Nguyen Truong To",
+    "lat": 21.0430682,
+    "lng": 105.8438947
+  },
+  {
+    "city": "HANOI",
+    "name": "Lestar Hanoi Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "59 Hang Than, Nguyen Trung Truc, Ba Dinh",
+    "lat": 21.0423053,
+    "lng": 105.8472095
+  },
+  {
+    "city": "HANOI",
+    "name": "Le Petit Prince Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 58 Hàng Gai, Hoàn Kiếm,",
+    "lat": 21.0320064,
+    "lng": 105.8500763
+  },
+  {
+    "city": "HANOI",
+    "name": "Luxe Paradise Premium Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "75 Phạm Hồng Thái, Trúc Bạch",
+    "lat": 21.0443865,
+    "lng": 105.8427448
+  },
+  {
+    "city": "HANOI",
+    "name": "Media Central Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "108 Hang Bac",
+    "lat": 21.0341518,
+    "lng": 105.8513208
+  },
+  {
+    "city": "HANOI",
+    "name": "Meritel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 151 - 153 Hàng Bông, P.Hàng Bông",
+    "lat": 21.0288467,
+    "lng": 105.8438107
+  },
+  {
+    "city": "HANOI",
+    "name": "Minasi Hotel & Spa (Hang Buom)",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "40 Hang Buom",
+    "lat": 21.0277644,
+    "lng": 105.8341598
+  },
+  {
+    "city": "HANOI",
+    "name": "Minasi Premium Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "57 Nguyen Truong To , Ba Dinh",
+    "lat": 21.0421796,
+    "lng": 105.8455472
+  },
+  {
+    "city": "HANOI",
+    "name": "Minerva Premium Hotel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "36 Hang Trong Street",
+    "lat": 21.0277644,
+    "lng": 105.8341598
+  },
+  {
+    "city": "HANOI",
+    "name": "MK Premier Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "72 – 74 Hang Buom Str.",
+    "lat": 21.0277644,
+    "lng": 105.8341598
+  },
+  {
+    "city": "HANOI",
+    "name": "Nicecy Lion Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "22-24 Nguyen Van To St., Cua Dong",
+    "lat": 21.0318084,
+    "lng": 105.8462283
+  },
+  {
+    "city": "HANOI",
+    "name": "O’Gallery Premier Hotel & Spa",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "122 Hang Bong street",
+    "lat": 21.0296389,
+    "lng": 105.8456827
+  },
+  {
+    "city": "HANOI",
+    "name": "Oriental Suites Hotel & Spa",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "58 Hang Dao street",
+    "lat": 21.0331461,
+    "lng": 105.8507766
+  },
+  {
+    "city": "HANOI",
+    "name": "Palago Boutique Hotel",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 10, Bat Dan Street",
+    "lat": 21.0338521,
+    "lng": 105.8477006
+  },
+  {
+    "city": "HANOI",
+    "name": "Peridot Gallery Classic Boutique Hotel",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "52 Bat Su Str., Hang Bo Ward",
+    "lat": 21.0344975,
+    "lng": 105.8473729
+  },
+  {
+    "city": "HANOI",
+    "name": "Rex Hanoi Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "42-44 Gia Ngu street, Hang Bac ward, Hoan Kiem Dist",
+    "lat": 21.0331255,
+    "lng": 105.8521456
+  },
+  {
+    "city": "HANOI",
+    "name": "REY Hotel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 Ly Nam De Street",
+    "lat": 21.037946,
+    "lng": 105.8454843
+  },
+  {
+    "city": "HANOI",
+    "name": "Romantique Hotel De Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "35-37 Bat Su, Hang Bo",
+    "lat": 21.0346127,
+    "lng": 105.8474955
+  },
+  {
+    "city": "HANOI",
+    "name": "San Grand Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "02 Cau Go",
+    "lat": 21.0322826,
+    "lng": 105.8536942
+  },
+  {
+    "city": "HANOI",
+    "name": "San Premium Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "36 & 38 Ha Trung Str",
+    "lat": 21.0302283,
+    "lng": 105.8455321
+  },
+  {
+    "city": "HANOI",
+    "name": "Scent Premium Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "31 Hang Hanh St",
+    "lat": 21.0312776,
+    "lng": 105.8502321
+  },
+  {
+    "city": "HANOI",
+    "name": "Shinning Central Hotel",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "20 Lò Sũ, Quận Hoàn Kiếm, Hà Nội",
+    "lat": 21.031453,
+    "lng": 105.8552759
+  },
+  {
+    "city": "HANOI",
+    "name": "Skylark Hotel",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "15 Phan Dinh Phùng Str",
+    "lat": 21.0399181,
+    "lng": 105.8455214
+  },
+  {
+    "city": "HANOI",
+    "name": "Skylark Boutique Hotel",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "17 Phan Dinh Phùng Str",
+    "lat": 21.039948,
+    "lng": 105.8454176
+  },
+  {
+    "city": "HANOI",
+    "name": "Solare de Monte Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "25 Nguyen Sieu Str.",
+    "lat": 21.0364973,
+    "lng": 105.8517695
+  },
+  {
+    "city": "HANOI",
+    "name": "SQ Hang Gai Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "100 Hang Gai, Hoan Kiem Ward",
+    "lat": 21.0315019,
+    "lng": 105.849591
+  },
+  {
+    "city": "HANOI",
+    "name": "Sunline Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "18 Bao Khanh Lane",
+    "lat": 21.0301772,
+    "lng": 105.8504564
+  },
+  {
+    "city": "HANOI",
+    "name": "Thang Long Opera Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "1C Tong Dan Str., Hoan Kiem Ward",
+    "lat": 21.0280122,
+    "lng": 105.8572706
+  },
+  {
+    "city": "HANOI",
+    "name": "The Allure Hotel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 52 Dao Duy Tu street",
+    "lat": 21.03528,
+    "lng": 105.8528582
+  },
+  {
+    "city": "HANOI",
+    "name": "The Bloom Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 36, Dich Vong Hau Ward",
+    "lat": 21.0328066,
+    "lng": 105.7872385
+  },
+  {
+    "city": "HANOI",
+    "name": "The Chi Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "13-15 Nha Chung",
+    "lat": 21.0283953,
+    "lng": 105.8498858
+  },
+  {
+    "city": "HANOI",
+    "name": "The Embassy Hotel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "166 Tran Quang Khai str.",
+    "lat": 21.0307459,
+    "lng": 105.8566561
+  },
+  {
+    "city": "HANOI",
+    "name": "The Q Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "87 Nguyen Truong To, Ba Dinh",
+    "lat": 21.0425867,
+    "lng": 105.8444304
+  },
+  {
+    "city": "HANOI",
+    "name": "The Q Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "22 Nguyen Huu Huan, Hoan Kiem",
+    "lat": 21.0347728,
+    "lng": 105.8542859
+  },
+  {
+    "city": "HANOI",
+    "name": "The West Hotel & Spa",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "23 Hang Dao st",
+    "lat": 21.0336851,
+    "lng": 105.8509697
+  },
+  {
+    "city": "HANOI",
+    "name": "Thien Thai Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "45 Nguyen Truong To",
+    "lat": 21.042126,
+    "lng": 105.845832
+  },
+  {
+    "city": "HANOI",
+    "name": "Tirant Hotel Hanoi",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "38 Gia Ngu Str.",
+    "lat": 21.033235,
+    "lng": 105.8521943
+  },
+  {
+    "city": "HANOI",
+    "name": "Vacanza Premier Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "01 Hang Vai Street, Old Quarter",
+    "lat": 21.0353211,
+    "lng": 105.8481562
+  },
+  {
+    "city": "HANOI",
+    "name": "Victor Gallery Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 95 - 95B Hang Gai",
+    "lat": 21.0315813,
+    "lng": 105.849652
+  },
+  {
+    "city": "HANOI",
+    "name": "Victor Metropolis Hotel & Rooftop Bar",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "58 Hang Gai",
+    "lat": 21.0320064,
+    "lng": 105.8500763
+  },
+  {
+    "city": "HANOI",
+    "name": "Apricot Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "136 Hang Trong Street, Hoan Kiem Ward",
+    "lat": 21.0291138,
+    "lng": 105.844479
+  },
+  {
+    "city": "HANOI",
+    "name": "Capella Hanoi",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Le Phung Hieu",
+    "lat": 21.0257164,
+    "lng": 105.8566886
+  },
+  {
+    "city": "HANOI",
+    "name": "Champton Hanoi Hotel",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "128-130 Hang Bong, Hoan Kiem",
+    "lat": 21.029651,
+    "lng": 105.8455256
+  },
+  {
+    "city": "HANOI",
+    "name": "Classyc Hotel",
+    "cat": "5* boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "7&9 Hang Thung Street",
+    "lat": 21.0321693,
+    "lng": 105.8544918
+  },
+  {
+    "city": "HANOI",
+    "name": "GM Premium Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "41 Hang Bong Str,",
+    "lat": 21.0307869,
+    "lng": 105.8482632
+  },
+  {
+    "city": "HANOI",
+    "name": "GRAND HÔTEL du LAC Hanoi",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 18-20-24 Nha Chung str,Hoan Kiem Dist,Hanoi",
+    "lat": 21.028132,
+    "lng": 105.8499132
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Le Chateau Hotel & Spa",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "23-25 Hang Thiec St.",
+    "lat": 21.0334077,
+    "lng": 105.8479507
+  },
+  {
+    "city": "HANOI",
+    "name": "Hanoi Solis Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "55 Hang Trong Str",
+    "lat": 21.0277644,
+    "lng": 105.8341598
+  },
+  {
+    "city": "HANOI",
+    "name": "Hotel De Lagom",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "30 BCD Ly Nam De Street, Hoan Kiem, Hanoi",
+    "lat": 21.0348918,
+    "lng": 105.844954
+  },
+  {
+    "city": "HANOI",
+    "name": "May De Ville Lakeside Hotel & Spa",
+    "cat": "5* boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "43-45-47 Gia Ngư",
+    "lat": 21.0328524,
+    "lng": 105.8521714
+  },
+  {
+    "city": "HANOI",
+    "name": "Peridot Grand Luxury Boutique Hotel",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "33-35 Duong Thanh Str., Cua Dong Ward",
+    "lat": 21.0330071,
+    "lng": 105.8463705
+  },
+  {
+    "city": "HANOI",
+    "name": "Solar Premium Hotel & Spa",
+    "cat": "5* boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 59A Ly Nam De Str., Hoan Kiem, Ha Noi",
+    "lat": 21.0351189,
+    "lng": 105.8451108
+  },
+  {
+    "city": "HANOI",
+    "name": "Splendid Premium Hotel",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "36 Lo Su Str",
+    "lat": 21.0315111,
+    "lng": 105.8548752
+  },
+  {
+    "city": "HANOI",
+    "name": "The Legend Hanoi Hotel",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "8 Yet Kieu Str.",
+    "lat": 21.0231088,
+    "lng": 105.8435065
+  },
+  {
+    "city": "HANOI",
+    "name": "The Oriental Jade Hotel",
+    "cat": "5 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "92 - 94 Hang Trong Street",
+    "lat": 21.3056634,
+    "lng": 105.8551382
+  },
+  {
+    "city": "DANANG",
+    "name": "A25 Hotel -  137 Nguyen Du",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "137 Nguyễn Du",
+    "lat": 16.0781666,
+    "lng": 108.217872
+  },
+  {
+    "city": "DANANG",
+    "name": "Alisia Beach Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "19 Hoang Sa str",
+    "lat": 16.0921781,
+    "lng": 108.2509066
+  },
+  {
+    "city": "DANANG",
+    "name": "Bella Merry Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "69 - 71 Ha Bong, Son Tra",
+    "lat": 16.1076148,
+    "lng": 108.2589069
+  },
+  {
+    "city": "DANANG",
+    "name": "Crystal Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "204-206 Ho Nghinh",
+    "lat": 16.0670099,
+    "lng": 108.243037
+  },
+  {
+    "city": "DANANG",
+    "name": "ANFADA Hotel Danang",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "171 Nguyen Van Thoai str",
+    "lat": 16.0552436,
+    "lng": 108.241911
+  },
+  {
+    "city": "DANANG",
+    "name": "Golden Star Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Block 04-06 Phan Liem st",
+    "lat": 16.0545363,
+    "lng": 108.2445661
+  },
+  {
+    "city": "DANANG",
+    "name": "Greenery Hotel Da Nang",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "76 Ha Bong Street, Phuoc My Ward",
+    "lat": 16.0658922,
+    "lng": 108.244216
+  },
+  {
+    "city": "DANANG",
+    "name": "Hoang Sa Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "54-56 Duong Dinh Nghe St",
+    "lat": 16.0688524,
+    "lng": 108.2383248
+  },
+  {
+    "city": "DANANG",
+    "name": "Kay Hotel Da Nang",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "357 Tran Hung Dao",
+    "lat": 16.0670956,
+    "lng": 108.2294899
+  },
+  {
+    "city": "DANANG",
+    "name": "Le House Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "85 Ha Bong, Phuoc My Ward",
+    "lat": 16.0668365,
+    "lng": 108.244431
+  },
+  {
+    "city": "DANANG",
+    "name": "Menora Premium Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "196 Tran Bach Dang Street, Ngu Hanh Son Ward",
+    "lat": 16.0533231,
+    "lng": 108.2465831
+  },
+  {
+    "city": "DANANG",
+    "name": "Minh Boutique Hotel & Apartment",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "05 Nguyen Cao Luyen",
+    "lat": 16.0695978,
+    "lng": 108.2418718
+  },
+  {
+    "city": "DANANG",
+    "name": "Nature Hotel Danang",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lot 07,Pham Van Dong Street, An Hai Bac Ward",
+    "lat": 16.0717952,
+    "lng": 108.2345828
+  },
+  {
+    "city": "DANANG",
+    "name": "Nguyen Gia Hotel",
+    "cat": "3 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "T113 Hoàng Sa, Thọ Quang Ward",
+    "lat": 16.1014636,
+    "lng": 108.2575607
+  },
+  {
+    "city": "DANANG",
+    "name": "Ocean Haven Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "295-297 Ho Nghinh Street, Phuoc My County",
+    "lat": 16.0654073,
+    "lng": 108.2434515
+  },
+  {
+    "city": "DANANG",
+    "name": "Pandora Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "yes",
+    "address": "21-23 Phan Tôn, Bắc Mỹ Phú",
+    "lat": 16.0525207,
+    "lng": 108.2458709
+  },
+  {
+    "city": "DANANG",
+    "name": "Sea Queen Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "155 – 157 Lê Quang Đạo, P. Mỹ An",
+    "lat": 16.0508823,
+    "lng": 108.2454952
+  },
+  {
+    "city": "DANANG",
+    "name": "Sekong Hotel Da Nang",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "160 Vo Nguyen Giap, An Hai Ward",
+    "lat": 16.0732132,
+    "lng": 108.2452331
+  },
+  {
+    "city": "DANANG",
+    "name": "Sepon Blue Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "157 - 159 Vo Van Kiet, Son Tra",
+    "lat": 16.0617437,
+    "lng": 108.2377346
+  },
+  {
+    "city": "DANANG",
+    "name": "Sofia Suite Hotel Da Nang",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "09 Le Quang Dao, Son Tra",
+    "lat": 16.1025647,
+    "lng": 108.2593501
+  },
+  {
+    "city": "DANANG",
+    "name": "Soho Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "23-25 Ha Bong St , Phuoc My Ward",
+    "lat": 16.0681103,
+    "lng": 108.2444195
+  },
+  {
+    "city": "DANANG",
+    "name": "Sun River hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "132-134-136 Bạch Đằng, Phường Hải Châu 1",
+    "lat": 16.0675645,
+    "lng": 108.2247966
+  },
+  {
+    "city": "DANANG",
+    "name": "Tây Bắc Danang Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "4 Ha Bong, Phuoc My Ward",
+    "lat": 16.0684152,
+    "lng": 108.2442757
+  },
+  {
+    "city": "DANANG",
+    "name": "The Herriott Hotel & Suite",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lot 7 & 8 Le Van Quy",
+    "lat": 16.0720025,
+    "lng": 108.2384588
+  },
+  {
+    "city": "DANANG",
+    "name": "Toan Thang Beach Danang Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "180 - 182 Nguyen Van Thoai",
+    "lat": 16.0558588,
+    "lng": 108.2455153
+  },
+  {
+    "city": "DANANG",
+    "name": "White Sand Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "89 - 91 Vo Van Kiet St",
+    "lat": 16.0627905,
+    "lng": 108.2422041
+  },
+  {
+    "city": "DANANG",
+    "name": "Terra Boutique Hotel",
+    "cat": "3+",
+    "area": "-",
+    "sic": "Yes",
+    "address": "05 Phan Liem St",
+    "lat": 16.055123,
+    "lng": 108.2455714
+  },
+  {
+    "city": "DANANG",
+    "name": "À La Carte Da Nang Beach Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "200 Vo Nguyen Giap, An Hai Ward",
+    "lat": 16.0732132,
+    "lng": 108.2452331
+  },
+  {
+    "city": "DANANG",
+    "name": "Alani Sea View Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "134-136-138 Tran Bach Dang, My An",
+    "lat": 16.0540694,
+    "lng": 108.2460972
+  },
+  {
+    "city": "DANANG",
+    "name": "Angel Hotels Beach Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "143 Tran Bach Dang St",
+    "lat": 16.0539475,
+    "lng": 108.2459185
+  },
+  {
+    "city": "DANANG",
+    "name": "Aria Grand Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "63-65-67 Phan Ton St",
+    "lat": 15.9890652,
+    "lng": 108.2354119
+  },
+  {
+    "city": "DANANG",
+    "name": "Balcona Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "288 Vo Nguyen Giap Street, My An Ward",
+    "lat": 16.051592,
+    "lng": 108.248075
+  },
+  {
+    "city": "DANANG",
+    "name": "Canvas Danang Beach Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "234 Vo Nguyen Giap Street, Phuoc My Ward",
+    "lat": 16.0611142,
+    "lng": 108.2464219
+  },
+  {
+    "city": "DANANG",
+    "name": "Chicland Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "210 Vo Nguyen Giap, Phuoc My ward",
+    "lat": 16.0681083,
+    "lng": 108.2446127
+  },
+  {
+    "city": "DANANG",
+    "name": "Cicilia Hotels & Spa Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "06-08-10 Do Ba street, My An ward, Ngu Hanh Son district",
+    "lat": 16.0514788,
+    "lng": 108.2367759
+  },
+  {
+    "city": "DANANG",
+    "name": "Cosmos Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "117 – 119 Ngo Thi Si Str, Ngu Hanh Son ward",
+    "lat": 16.0481591,
+    "lng": 108.246519
+  },
+  {
+    "city": "DANANG",
+    "name": "Cozy Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "37 Co Giang, Phuoc Ninh, Hai Chau",
+    "lat": 16.0616042,
+    "lng": 108.2217469
+  },
+  {
+    "city": "DANANG",
+    "name": "Danaciti Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "80 Đông Kinh Nghĩa Thục Str",
+    "lat": 16.075325,
+    "lng": 108.2420569
+  },
+  {
+    "city": "DANANG",
+    "name": "Danang Han River Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 Ly Tu Trong street",
+    "lat": 16.0779858,
+    "lng": 108.2207504
+  },
+  {
+    "city": "DANANG",
+    "name": "Diamond Sea Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "232 Vo Nguyen Giap, Phuoc My Ward",
+    "lat": 16.0665001,
+    "lng": 108.2448162
+  },
+  {
+    "city": "DANANG",
+    "name": "Eden Hotel Da Nang (Eden Ocean View)",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "294 Vo Nguyen Giap, My An",
+    "lat": 16.0509839,
+    "lng": 108.2483246
+  },
+  {
+    "city": "DANANG",
+    "name": "Eden Plaza Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "5-7 Duy Tan street",
+    "lat": 15.5637687,
+    "lng": 108.4970549
+  },
+  {
+    "city": "DANANG",
+    "name": "Everland Hotel Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lot 22, An Don 6 Street, An Hai Ward",
+    "lat": 16.0718094,
+    "lng": 108.2376843
+  },
+  {
+    "city": "DANANG",
+    "name": "Gold Plaza Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Tran Thi Ly str, Hoa Cuong Bac ward",
+    "lat": 16.0490378,
+    "lng": 108.2213023
+  },
+  {
+    "city": "DANANG",
+    "name": "Golden Line Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "63-65-67 Do Bi Street",
+    "lat": 16.0535056,
+    "lng": 108.2460351
+  },
+  {
+    "city": "DANANG",
+    "name": "Golden Lotus Grand Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "86 Lê Quang Đạo,P. Mỹ An",
+    "lat": 16.0500354,
+    "lng": 108.2452966
+  },
+  {
+    "city": "DANANG",
+    "name": "Golden Lotus Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "200 Trần Bạch Đằng, P. Mỹ An",
+    "lat": 16.0510382,
+    "lng": 108.2469549
+  },
+  {
+    "city": "DANANG",
+    "name": "Golden Lotus Luxury Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "198B Trần Bạch Đằng,P. Mỹ An",
+    "lat": 16.0525183,
+    "lng": 108.2465684
+  },
+  {
+    "city": "DANANG",
+    "name": "Grand Gold Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lot 1-A2.2, Hoang Sa Str., Tho Quang Ward",
+    "lat": 16.0954396,
+    "lng": 108.2519684
+  },
+  {
+    "city": "DANANG",
+    "name": "Grand Sea Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "08 Hà Bổng, Phước Mỹ",
+    "lat": 16.068095,
+    "lng": 108.2440628
+  },
+  {
+    "city": "DANANG",
+    "name": "Grand Sunrise Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "4-6-8-10 Le Lo, My Khe beach",
+    "lat": 16.0616944,
+    "lng": 108.2469346
+  },
+  {
+    "city": "DANANG",
+    "name": "Grandvrio City Danang Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "01-03 Dong Da Street",
+    "lat": 16.0757138,
+    "lng": 108.2173329
+  },
+  {
+    "city": "DANANG",
+    "name": "Hai Trieu Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "18-20 Loseby, An Hai Bac",
+    "lat": 16.0733139,
+    "lng": 108.2407639
+  },
+  {
+    "city": "DANANG",
+    "name": "HAIAN Beach Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "278 Vo Nguyen Giap str.",
+    "lat": 16.0530455,
+    "lng": 108.2475577
+  },
+  {
+    "city": "DANANG",
+    "name": "HAIAN Riverfront Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "182 Bach Dang Street",
+    "lat": 16.0661722,
+    "lng": 108.2244244
+  },
+  {
+    "city": "DANANG",
+    "name": "Halina Hotel & Apartment",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "My Khe Beach, No 156.158 Tran Bach Dang Street, My An Ward",
+    "lat": 16.0616944,
+    "lng": 108.2469346
+  },
+  {
+    "city": "DANANG",
+    "name": "Hilton Garden Inn Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 96 Vo Nguyen Giap, Man Thai Ward",
+    "lat": 16.0544563,
+    "lng": 108.0717219
+  },
+  {
+    "city": "DANANG",
+    "name": "Holiday Beach Hotel Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "My Khe Beach, 300 Vo Nguyen Giap Street",
+    "lat": 16.04943,
+    "lng": 108.2485706
+  },
+  {
+    "city": "DANANG",
+    "name": "Hotel Del Luna",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "138 Ho Nghinh Str, An Hai Bac Ward, Son Tra District",
+    "lat": 16.0728629,
+    "lng": 108.2428438
+  },
+  {
+    "city": "DANANG",
+    "name": "Ibiza Riverfront Danang Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "195-205 Trần Hưng Đạo, P. An Hải Bắc",
+    "lat": 16.0779199,
+    "lng": 108.2288727
+  },
+  {
+    "city": "DANANG",
+    "name": "Lavencos Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Số 360 – 362 Võ nguyễn Giáp, P. Mỹ An",
+    "lat": 16.0437602,
+    "lng": 108.2475408
+  },
+  {
+    "city": "DANANG",
+    "name": "Le Sands Oceanfront Danang Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "28 Vo Nguyen Giap Street, Man Thai Ward",
+    "lat": 16.0276254,
+    "lng": 108.2552045
+  },
+  {
+    "city": "DANANG",
+    "name": "Nesta Hotel Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "268 Vo Nguyen Giap Str., Ngu Hanh Son Ward.",
+    "lat": 16.0559363,
+    "lng": 108.2465317
+  },
+  {
+    "city": "DANANG",
+    "name": "Mandila Beach Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 218 Vo Nguyen Giap Street, An Hai Ward, Da Nang City, Vietnam- Opposite My Khe Beach",
+    "lat": 16.0732132,
+    "lng": 108.2452331
+  },
+  {
+    "city": "DANANG",
+    "name": "Menora Grand Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "69 – 71- 73 Do Bi Street, Ngu Hanh Son Ward",
+    "lat": 16.0533861,
+    "lng": 108.24608
+  },
+  {
+    "city": "DANANG",
+    "name": "Mercy Emerald Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "170-172-174 Nguyen Van Thoai Street, My An Ward",
+    "lat": 16.0558661,
+    "lng": 108.2454381
+  },
+  {
+    "city": "DANANG",
+    "name": "Merry Land Hotel",
+    "cat": "4 local",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lô 20-21 Phạm Văn Đồng - Phường An Hải Bắc",
+    "lat": 16.0718643,
+    "lng": 108.2347212
+  },
+  {
+    "city": "DANANG",
+    "name": "Monarque Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "238 Vo Nguyen Giap, Phuoc My Ward",
+    "lat": 16.066097,
+    "lng": 108.2450298
+  },
+  {
+    "city": "DANANG",
+    "name": "Muong Thanh Grand Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "962 Ngô Quyền, P.An Hải Tây",
+    "lat": 16.0648737,
+    "lng": 108.2330284
+  },
+  {
+    "city": "DANANG",
+    "name": "Ocean Bliss Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "142-144-146 Ho Nghinh",
+    "lat": 16.0728979,
+    "lng": 108.2427522
+  },
+  {
+    "city": "DANANG",
+    "name": "Paracel Beach Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "204 Vo Nguyen Giap str, Phuoc My Ward",
+    "lat": 16.0685096,
+    "lng": 108.2447479
+  },
+  {
+    "city": "DANANG",
+    "name": "Pavilion Hotel Da Nang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "35 Vo Van Kiet Str.",
+    "lat": 16.0633409,
+    "lng": 108.244174
+  },
+  {
+    "city": "DANANG",
+    "name": "Royal Family Hotel",
+    "cat": "4 local",
+    "area": "-",
+    "sic": "Yes",
+    "address": "39 Võ Văn Kiệt",
+    "lat": 16.0630231,
+    "lng": 108.2438056
+  },
+  {
+    "city": "DANANG",
+    "name": "Royal Lotus Hotel Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "120A Nguyen Van Thoai str., My An ward",
+    "lat": 16.0544808,
+    "lng": 108.2421592
+  },
+  {
+    "city": "DANANG",
+    "name": "Sala Danang Beach Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "36-38 Lam Hoanh",
+    "lat": 16.0622243,
+    "lng": 108.2451814
+  },
+  {
+    "city": "DANANG",
+    "name": "San Marino Boutique Danang Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "161-163-165 Vo Van Kiet Street, An Hai Dong Ward",
+    "lat": 16.0617124,
+    "lng": 108.2376349
+  },
+  {
+    "city": "DANANG",
+    "name": "Sandy Beach Non Nuoc Resort",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "21 Truong Sa Street",
+    "lat": 15.9969535,
+    "lng": 108.2696336
+  },
+  {
+    "city": "DANANG",
+    "name": "Santa Luxury Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "09 Do Ba Street, My An Ward",
+    "lat": 16.0514788,
+    "lng": 108.2367759
+  },
+  {
+    "city": "DANANG",
+    "name": "Sea Garden Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "29-33 Lê Văn Quý, An Hải Bắc, Sơn Trà, Đà Nẵng",
+    "lat": 16.0717667,
+    "lng": 108.2383807
+  },
+  {
+    "city": "DANANG",
+    "name": "Serene Beach Hotel Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "274 Vo Nguyen Giap Street, My An Ward",
+    "lat": 16.0532237,
+    "lng": 108.2469845
+  },
+  {
+    "city": "DANANG",
+    "name": "Son Tra Resort",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Bai Nam- Bai Con, Hoang Sa Str., Son Tra Peninsula, Tho Quang Ward",
+    "lat": 16.1032577,
+    "lng": 108.2818646
+  },
+  {
+    "city": "DANANG",
+    "name": "Stella Maris Beach Danang Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "03 Vo Van Kiet St., Phuoc My, Son Tra Dist.",
+    "lat": 16.0634999,
+    "lng": 108.2449079
+  },
+  {
+    "city": "DANANG",
+    "name": "Sunny Ocean Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "90 - 92 - 94 Tran Bach Dang, Ngu Hanh Son",
+    "lat": 16.0552074,
+    "lng": 108.246102
+  },
+  {
+    "city": "DANANG",
+    "name": "Tamarind Danang Beach Hotel",
+    "cat": "4* local",
+    "area": "-",
+    "sic": "Yes",
+    "address": "83 Trần Bạch Đằng, phường Mỹ An",
+    "lat": 16.0506556,
+    "lng": 108.2475351
+  },
+  {
+    "city": "DANANG",
+    "name": "TGT Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "13-15-17 Duong Dinh Nghe",
+    "lat": 16.0687665,
+    "lng": 108.2439113
+  },
+  {
+    "city": "DANANG",
+    "name": "The Code Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "A2.3 Hoang Sa Street, Tho Quang Ward",
+    "lat": 16.0900901,
+    "lng": 108.2494302
+  },
+  {
+    "city": "DANANG",
+    "name": "The Sail Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Do Ba Street, My An Ward",
+    "lat": 16.0514788,
+    "lng": 108.2367759
+  },
+  {
+    "city": "DANANG",
+    "name": "Vian Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "124 Phạm Văn Đồng - Phường An Hải Bắc",
+    "lat": 16.0708749,
+    "lng": 108.2354089
+  },
+  {
+    "city": "DANANG",
+    "name": "Wink Hotel Danang Centre",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "178 Tran Phu Street, Phuoc Ninh Ward",
+    "lat": 16.0654948,
+    "lng": 108.2234941
+  },
+  {
+    "city": "DANANG",
+    "name": "Yarra Ocean Suites Danang",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "304 Vo Nguyen Giap Street, Ngu Hanh Son Ward",
+    "lat": 16.0488759,
+    "lng": 108.2486441
+  },
+  {
+    "city": "DANANG",
+    "name": "Yes Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "61-63 Loseby, An Hai Ward",
+    "lat": 16.0737951,
+    "lng": 108.2416917
+  },
+  {
+    "city": "DANANG",
+    "name": "Alan Sea Hotel Da Nang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lot A6 Le Duc Tho, Nai Hien Dong Ward",
+    "lat": 16.1044727,
+    "lng": 108.2424875
+  },
+  {
+    "city": "DANANG",
+    "name": "ALTARA SUITE",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "120 Vo Nguyen Giap, Phuoc My",
+    "lat": 16.0776796,
+    "lng": 108.2451232
+  },
+  {
+    "city": "DANANG",
+    "name": "Awaken Danang Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "148 Vo Nguyen Giap Street, Phuoc My Ward",
+    "lat": 16.0732132,
+    "lng": 108.2452331
+  },
+  {
+    "city": "DANANG",
+    "name": "Crowne Plaza Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 8 Vo Nguyen Giap Street, Khue My Ward",
+    "lat": 16.0272121,
+    "lng": 108.2562002
+  },
+  {
+    "city": "DANANG",
+    "name": "DLG Hotel Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "258 Vo Nguyen Giap Street, An Hai Ward",
+    "lat": 16.0584005,
+    "lng": 108.246511
+  },
+  {
+    "city": "DANANG",
+    "name": "Four Points by Sheraton Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 118 – 120 Vo Nguyen Giap Street, Phuoc My Ward",
+    "lat": 16.0732132,
+    "lng": 108.2452331
+  },
+  {
+    "city": "DANANG",
+    "name": "Furama Resort Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "103 – 105 Vo Nguyen Giap Street, Khue My Ward",
+    "lat": 16.0370083,
+    "lng": 108.252768
+  },
+  {
+    "city": "DANANG",
+    "name": "Furama Villas Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "103 – 105 Vo Nguyen Giap Street, Khue My Ward",
+    "lat": 16.0370083,
+    "lng": 108.252768
+  },
+  {
+    "city": "DANANG",
+    "name": "Fusion Suites Da Nang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "An Cu 5 Residential, Vo Nguyen Giap Street, Man Thai Ward",
+    "lat": 16.0741036,
+    "lng": 108.241612
+  },
+  {
+    "city": "DANANG",
+    "name": "Grand Mercure Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Lot A1, Green Island, Hoa Cuong Bac",
+    "lat": 16.0377365,
+    "lng": 108.2236919
+  },
+  {
+    "city": "DANANG",
+    "name": "Grand Tourane Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "252 Vo Nguyen Giap Street",
+    "lat": 16.0610947,
+    "lng": 108.2461516
+  },
+  {
+    "city": "DANANG",
+    "name": "KOI Resort & Residence Da Nang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Truong Sa Street",
+    "lat": 16.0040536,
+    "lng": 108.2664999
+  },
+  {
+    "city": "DANANG",
+    "name": "M Hotel Da Nang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "286 Vo Nguyen Giap Street, My An Ward",
+    "lat": 16.0521957,
+    "lng": 108.2480328
+  },
+  {
+    "city": "DANANG",
+    "name": "Meliá Danang Beach Resort",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "19 Truong Sa Street, Hoa Hai Ward",
+    "lat": 16.0001631,
+    "lng": 108.2692629
+  },
+  {
+    "city": "DANANG",
+    "name": "Muong Thanh Luxury Da Nang Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "270 Vo Nguyen Giap, Ngu Hanh Son Ward",
+    "lat": 16.0537118,
+    "lng": 108.2473233
+  },
+  {
+    "city": "DANANG",
+    "name": "Olalani Resort & Condotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "111 Vo Nguyen Giap St., Khue My Ward",
+    "lat": 16.0295753,
+    "lng": 108.2559167
+  },
+  {
+    "city": "DANANG",
+    "name": "Pullman Danang Beach Resort",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No.101 Vo Nguyen Giap Street, Khue My Ward",
+    "lat": 16.040988,
+    "lng": 108.2517305
+  },
+  {
+    "city": "DANANG",
+    "name": "Radisson Hotel Danang",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "170 Vo Nguyen Giap, Phuoc My Ward",
+    "lat": 16.0739242,
+    "lng": 108.2446561
+  },
+  {
+    "city": "DANANG",
+    "name": "Risemount Premier Resort",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "120 NGUYEN VAN THOAI ST",
+    "lat": 16.0551218,
+    "lng": 108.2429947
+  },
+  {
+    "city": "DANANG",
+    "name": "Rosamia Da Nang Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "282 Vo Nguyen Giap, My Khe Beach",
+    "lat": 16.0532448,
+    "lng": 108.2479345
+  },
+  {
+    "city": "DANANG",
+    "name": "Sel de Mer Hotel & Suites",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "92 Vo Nguyen Giap, Man Thai Ward",
+    "lat": 15.9458502,
+    "lng": 108.3016492
+  },
+  {
+    "city": "DANANG",
+    "name": "The Ocean Resort",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "Truong Sa Street, Hoa Hai Ward",
+    "lat": 15.9926316,
+    "lng": 108.269373
+  },
+  {
+    "city": "DANANG",
+    "name": "TMS Hotel Da Nang Beach",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "292 Vo Nguyen Giap, Ngu Hanh Son Ward",
+    "lat": 16.051536,
+    "lng": 108.248023
+  },
+  {
+    "city": "DANANG",
+    "name": "Wink Hotel Danang Riverside",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "351 Tran Hung Dao Street, An Hai Tay Ward",
+    "lat": 16.0677927,
+    "lng": 108.2294193
+  },
+  {
+    "city": "DANANG",
+    "name": "Wyndham Danang Golden Bay Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "01 Le Van Duyet Street",
+    "lat": 16.0966729,
+    "lng": 108.2245339
+  },
+  {
+    "city": "DANANG",
+    "name": "Nesta Celia Danang Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "254 Vo Nguyen Giap Str., An Hai Ward",
+    "lat": 16.0606612,
+    "lng": 108.245722
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  14 Ho Huan Nghiep",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 Hồ Huấn Nghiệp",
+    "lat": 10.7746376,
+    "lng": 106.7052982
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  14 Luong Huu Khanh",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 Lương Hữu Khánh",
+    "lat": 10.7699427,
+    "lng": 106.6864392
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  14 Pho Duc Chinh",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 Phó Đức Chính",
+    "lat": 10.9788273,
+    "lng": 106.652323
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  22 Nguyen Cu Trinh",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "22 Nguyễn Cư Trinh",
+    "lat": 10.7648784,
+    "lng": 106.6918728
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  25 Truong Dinh",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "25 Trương Định",
+    "lat": 10.7763792,
+    "lng": 106.6910038
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  75 Le Thi Hong Gam",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "75 Lê Thị Hồng Gấm",
+    "lat": 10.768603,
+    "lng": 106.6973644
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  142 Bui Thi Xuan",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "142 Bùi Thị Xuân",
+    "lat": 10.7693828,
+    "lng": 106.687704
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  167 Pham Ngu Lao",
+    "cat": "1",
+    "area": "-",
+    "sic": "Yes",
+    "address": "167 Phạm Ngũ Lão",
+    "lat": 10.7689634,
+    "lng": 106.6944153
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  35 Mac Thi Buoi",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "35 Mạc Thị Bưởi",
+    "lat": 10.775281,
+    "lng": 106.704841
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  255 Le Thanh Ton",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "255 Lê Thánh Tôn",
+    "lat": 10.7719078,
+    "lng": 106.6959156
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  274 De Tham",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "274 Đề Thám",
+    "lat": 10.7685016,
+    "lng": 106.6935715
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  307 Ly Tu Trong",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "307 Lý Tự Trọng",
+    "lat": 10.7716991,
+    "lng": 106.69393
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Apollo (Airport Hotel)",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "94 Yen The, Ward 2",
+    "lat": 10.8127784,
+    "lng": 106.6685642
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Hai Nam Hotel",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "169 Le Thanh Ton St, Ben Thanh Ward",
+    "lat": 10.7737866,
+    "lng": 106.6987926
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nicecy Daily Hotel",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "218 Le Thanh Ton St., Ben Thanh Ward",
+    "lat": 10.7726382,
+    "lng": 106.6966536
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Hotel Nicecy",
+    "cat": "2",
+    "area": "-",
+    "sic": "Yes",
+    "address": "271 Le Thanh Ton St., Ben Thanh Ward",
+    "lat": 10.7717897,
+    "lng": 106.6957016
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nicecy Ngan Ha Hotel",
+    "cat": "2+",
+    "area": "-",
+    "sic": "Yes",
+    "address": "190 Le Thanh Ton St., Ben Thanh Ward",
+    "lat": 10.7729182,
+    "lng": 106.6971109
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A&EM Hotel 44-46 Phan Boi Chau",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "44-46 Phan Boi Chau, Ben Thanh Ward",
+    "lat": 10.7734545,
+    "lng": 106.6979088
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  20 Bui Thi Xuan",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "20 Bùi Thị Xuân",
+    "lat": 10.7725334,
+    "lng": 106.6911891
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  29 Bui Thi Xuan",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "29 Bùi Thị Xuân",
+    "lat": 10.7713304,
+    "lng": 106.6900952
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel - 55 Cach Mang Thang Tam",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "55 Cách Mạng Tháng Tám",
+    "lat": 10.7889239,
+    "lng": 106.6650121
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel - 55 Le Anh Xuan",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "55 Lê Anh Xuân - Bến Thành",
+    "lat": 10.7720948,
+    "lng": 106.6949003
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  55/29 Le Thi Hong Gam",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "55/29 Lê Thị Hồng Gấm",
+    "lat": 10.7684008,
+    "lng": 106.6982558
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel -  65G Nguyen Thai Hoc",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "65G Nguyễn Thái Học",
+    "lat": 10.7664719,
+    "lng": 106.6960743
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel - 180 Nguyen Trai",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "180 Nguyễn Trãi",
+    "lat": 10.7691779,
+    "lng": 106.6899201
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A25 Hotel - 277 Le Thanh Ton",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "277 Lê Thánh Tôn",
+    "lat": 10.7716717,
+    "lng": 106.6955811
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "AA Toronto Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "28 Truong Dinh, Ben Thanh Ward",
+    "lat": 10.7719724,
+    "lng": 106.6962192
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Acnos Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "18-20 Nguyen Thi Nghia str, Ben Thanh ward",
+    "lat": 10.7704764,
+    "lng": 106.693593
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Aluna Hotel (Not support Indian Market)",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "48-50 Nguyen An Ninh Street, Ben Thanh Ward",
+    "lat": 10.7718264,
+    "lng": 106.6965481
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Amanaki Saigon Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "65 Ho Tung Mau, Ben Nghe Ward",
+    "lat": 10.771674,
+    "lng": 106.7035492
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Anpha Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "202 Le Thanh Ton St., Ben Thanh Ward",
+    "lat": 10.7728031,
+    "lng": 106.6969243
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Avanti Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "208 - 210 Le Thanh Ton St., Ben Thanh Ward",
+    "lat": 10.7728284,
+    "lng": 106.6966897
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Avanti Hotel Saigon",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "186-188 Le Thanh Ton St., Ben Thanh Ward",
+    "lat": 10.7729512,
+    "lng": 106.6969688
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Bong Sen Hotel Saigon",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "117 - 123 Dong Khoi Street, Ben Nghe Ward",
+    "lat": 10.7752081,
+    "lng": 106.7038091
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "California Saigon Hotel & Rooftop Pool",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "52-54 Thu Khoa Huan Street, Ben Thanh Ward",
+    "lat": 10.7746753,
+    "lng": 106.6967005
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Calista HCMC Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "247 - 249 Ly Tu Trong Street, Ben Thanh Ward",
+    "lat": 10.7723697,
+    "lng": 106.694865
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Camelia Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "108 Le Lai, Ben Thanh Ward",
+    "lat": 10.7727021,
+    "lng": 106.6990944
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Cap Town Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "28-30 Lê Anh Xuân",
+    "lat": 10.7720396,
+    "lng": 106.6952841
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Dai Nam Hotel (A La Carte Breakfast)",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "5/11 Nguyen Sieu",
+    "lat": 10.7775308,
+    "lng": 106.7043771
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Diamond Hill Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "6B Thi Sach Street, Ben Nghe Ward",
+    "lat": 10.7778113,
+    "lng": 106.7054631
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Elios Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "231-233-235 Pham Ngu Lao St, Ben Thanh Ward",
+    "lat": 10.7681989,
+    "lng": 106.692605
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "GK Central Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "92-94 Ly Tu Trong, Ben Thanh Ward",
+    "lat": 10.7743504,
+    "lng": 106.6974263
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Hato Saigon Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "115 - 117 Ton That Dam, Ben Nghe Ward",
+    "lat": 10.772155,
+    "lng": 106.702711
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Huong Sen Annex",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "4-6-8 MAC THI BUOI",
+    "lat": 10.7743819,
+    "lng": 106.704419
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Huong Sen Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "66-70 DONG KHOI",
+    "lat": 10.7751699,
+    "lng": 106.7043485
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Jovia Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "132 Ly Tu Trong Street, Ben Thanh Ward",
+    "lat": 10.7738389,
+    "lng": 106.6966861
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "La Opera Saigon Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "1 Ngo Van Nam, Ben Nghe Ward",
+    "lat": 10.780946,
+    "lng": 106.7062358
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Little Boutique Saigon Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "36Bis/2 Le Loi Boulevard",
+    "lat": 10.771999,
+    "lng": 106.6981713
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Milestone Inn Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "170-172 Nguyễn Thái Bình Phường Nguyễn Thái Bình",
+    "lat": 10.7688013,
+    "lng": 106.6992445
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "MISAKI AIRPORT HOTEL",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "18 Song Nhue, Ward 2",
+    "lat": 10.8069208,
+    "lng": 106.6664793
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nhat Ha 1 Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "252 B-C Le Thanh Ton Street, Ben Thanh Ward",
+    "lat": 10.7728715,
+    "lng": 106.6971658
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nicecy Boutique Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "27-29 Truong Dinh St., Ben Thanh Ward",
+    "lat": 10.7717329,
+    "lng": 106.6960782
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nicecy Hotel Bui Thi Xuan Street",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "84A Bui Thi Xuan St., Ben Thanh Ward",
+    "lat": 10.770782,
+    "lng": 106.6895467
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "NICECY PALAGO (287-289 Pham Ngu Lao St)",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "287-289 Pham Ngu Lao St.",
+    "lat": 10.7677112,
+    "lng": 106.6912612
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nicecy Saigon Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "4B Thi Sach St., Ben Nghe Ward",
+    "lat": 10.7773499,
+    "lng": 106.7057336
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Prague Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "175/10-12 Pham Ngu Lao",
+    "lat": 10.7689176,
+    "lng": 106.69432
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Queen Ann Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "86 - 88 Bui Thi Xuan Sreet, Ben Thanh Ward",
+    "lat": 10.769365,
+    "lng": 106.6877536
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Rang Dong Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No 81-83 Cách Mạng Tháng Tám, P. Bến Thành, Quận 1, TP HCM",
+    "lat": 10.7719788,
+    "lng": 106.6917534
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Riverside Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "18-19-20 Ton Duc Thang St., Ben Nghe Ward",
+    "lat": 10.7737295,
+    "lng": 106.706346
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Saigon Hanoi Central Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "yes",
+    "address": "19 Truong Dinh, Ben Thanh Ward",
+    "lat": 10.7716307,
+    "lng": 106.6962291
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Saigon Kiko Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "211-213-215 Pham Ngu Lao St., PNL Ward",
+    "lat": 10.768342,
+    "lng": 106.69298
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sanouva Saigon Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "175 Ly Tu Trong St., Ben Thanh Ward",
+    "lat": 10.7732085,
+    "lng": 106.6962798
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "SilverLand Min Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "81 Hai Ba Trung St., Ben Nghe Ward",
+    "lat": 10.7770131,
+    "lng": 106.7043492
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sophia Hotel (No Breakfast)",
+    "cat": "3",
+    "area": "-",
+    "sic": "yes",
+    "address": "36 - 38 Thai Van Lung Street , Ben Nghe Ward",
+    "lat": 10.7826664,
+    "lng": 106.7046073
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sunflower Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11B Thai Van Lung St. Ben Nghe Ward",
+    "lat": 10.7790222,
+    "lng": 106.7045554
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sunny Serviced Apartment",
+    "cat": "3",
+    "area": "-",
+    "sic": "yes",
+    "address": "56 Le Thanh Ton, Ben Nghe Ward",
+    "lat": 10.7787687,
+    "lng": 106.7029923
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sunrise Central Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "135-137 Ly Tu Trong St., Ben Thanh Ward",
+    "lat": 10.773627,
+    "lng": 106.6969237
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Bloom Pham Viet Chanh",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No. 40/8/3, Pham Viet Chanh, Ward 19",
+    "lat": 10.7896718,
+    "lng": 106.71006
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Luxe Hotel - Saigon",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "261 – 265 Le Thanh Ton Str., Ben Thanh Ward",
+    "lat": 10.7718713,
+    "lng": 106.6957807
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Spring Hotel",
+    "cat": "3",
+    "area": "-",
+    "sic": "yes",
+    "address": "44-46 Le Thanh Ton",
+    "lat": 10.7790268,
+    "lng": 106.7031179
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The White 8A",
+    "cat": "3",
+    "area": "-",
+    "sic": "YEs",
+    "address": "8A Thai Van Lung, Ben Nghe Ward",
+    "lat": 10.779711,
+    "lng": 106.7050151
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "White Lotus Hotel Saigon",
+    "cat": "3",
+    "area": "-",
+    "sic": "Yes",
+    "address": "6A Thi Sach Street, Saigon Ward",
+    "lat": 10.7776744,
+    "lng": 106.7055314
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Happy Life Green Hotel",
+    "cat": "3.5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "549 Tran Hung Dao Street, Cau Ong Lanh Ward",
+    "lat": 10.7571771,
+    "lng": 106.6863106
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "22Land Hotel Saigon",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "25 Le Thanh Ton Road, Ben Nghe Ward",
+    "lat": 10.7801892,
+    "lng": 106.7042866
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A&EM ART HOTEL 31-35 Le Anh Xuan",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "31-35 Le Anh Xuan, Ben Thanh Ward",
+    "lat": 10.7716992,
+    "lng": 106.6950937
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "A&EM HCMC 39 Thu Khoa Huan",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "39-41 Thu Khoa Huan, Ben Thanh Ward",
+    "lat": 10.7740792,
+    "lng": 106.6968594
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Adora Art Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "189-191 Ly Tu Trong Str., Ben Thanh Ward",
+    "lat": 10.7731109,
+    "lng": 106.6960576
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Adora Mira Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "7A Thai Van Lung St., Ben Nghe Ward",
+    "lat": 10.778239,
+    "lng": 106.7056968
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Alagon City Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "56-58 Pham Hong Thai, Ben Thanh Ward",
+    "lat": 10.7714946,
+    "lng": 106.694332
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Alagon D'Antique Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "301-303 Ly Tu Trong, Ben Thanh",
+    "lat": 10.7716775,
+    "lng": 106.6941729
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Alagon Saigon Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "289 -291 Ly Tu Trong, Ben Thanh",
+    "lat": 10.7718713,
+    "lng": 106.6943077
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Au Lac Charner Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "87-91 Ho Tung Mau St, Ben Nghe Ward",
+    "lat": 10.772125,
+    "lng": 106.703525
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Bay Hotel Ho Chi Minh",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "7 Ngo Van Nam Street, Saigon Ward",
+    "lat": 10.7810846,
+    "lng": 106.7061764
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "CENTRAL PALACE HOTEL",
+    "cat": "4",
+    "area": "-",
+    "sic": "yes",
+    "address": "39-39A Nguyen Trung Truc Street",
+    "lat": 10.7754452,
+    "lng": 106.697069
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Cherry Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "15N Le Thanh Ton St., Ben Nghe Ward",
+    "lat": 10.7806348,
+    "lng": 106.7048659
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Cicilia City Hotel Saigon Center",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "12D Cach Mang Thang Tam Str, Ben Thanh Ward",
+    "lat": 10.7719602,
+    "lng": 106.692824
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Dai Nam Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "79 Tran Hung Dao Str., Cau Ong Lanh Ward",
+    "lat": 10.7684297,
+    "lng": 106.6962203
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Eden Star Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "38 Bùi Thị Xuân, Phường Bến Thành",
+    "lat": 10.771819,
+    "lng": 106.6900701
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Garden View Court Suites",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "101 Nguyen Du street,  Ben Thanh Ward",
+    "lat": 10.7749171,
+    "lng": 106.6968275
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Happy Life Grand Hotel & Sky Bar",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "102- 104- 106 Le Thị Hong Gam Street, Ben Thanh Ward",
+    "lat": 10.7692,
+    "lng": 106.6976075
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Harmony Saigon Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "32A – 34 Bui Thi Xuan Street, Ben Thanh Ward",
+    "lat": 10.7720179,
+    "lng": 106.690311
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Icon SaiGon Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "65-67 Hai Ba Trung St., Ben Nghe Ward",
+    "lat": 10.7764433,
+    "lng": 106.7047399
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Liberty Central Saigon Centre Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "179 Le Thanh Ton",
+    "lat": 10.7735548,
+    "lng": 106.698656
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Liberty Central Saigon Citypoint Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "59 Pasteur",
+    "lat": 10.7746987,
+    "lng": 106.7006348
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Liberty Central Saigon Riverside Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "17 Ton Duc Thang",
+    "lat": 10.7372625,
+    "lng": 106.9423236
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "M City Hotel Saigon",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "52B Pham Hong Thai Street, Ben Thanh Ward",
+    "lat": 10.7714199,
+    "lng": 106.6944399
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "M Hotel Saigon",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "39 Ton That Thiep, Ben Nghe Ward",
+    "lat": 10.773207,
+    "lng": 106.7018806
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "M Village Ton That Dam",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "129-131 Ton That Dam, Ben Nghe Ward",
+    "lat": 10.772435,
+    "lng": 106.702529
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Me Saigon Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "280 Le Thanh Ton Street, Ben Nghe Ward",
+    "lat": 10.7718643,
+    "lng": 106.695358
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Mường Thanh Grand HCMC Centre",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No.8A, Mac Dinh Chi St., Ben Nghe Ward",
+    "lat": 10.7842336,
+    "lng": 106.7005677
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nesta Hotel Saigon",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "34 - 36 Thu Khoa Huan, Ben Thanh Ward",
+    "lat": 10.7743472,
+    "lng": 106.6970507
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nhat Ha L’Opera Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "12-14-16 Cao Ba Quat Str.",
+    "lat": 10.778617,
+    "lng": 106.7045431
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Nicecy Hotel Suites & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "8B Le Thanh Ton St., Sai Gon Ward",
+    "lat": 10.781723,
+    "lng": 106.7055202
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "NiK Hotel Nguyen Trai",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "7/9 Nguyen Trai St, Ben Thanh Ward",
+    "lat": 10.7705113,
+    "lng": 106.6929362
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Oscar Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "68A Nguyen Hue",
+    "lat": 10.7748577,
+    "lng": 106.7032951
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Palace Hotel Saigon",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "56 - 66 Nguyen Hue Blvd., Ben Nghe Ward",
+    "lat": 10.7742295,
+    "lng": 106.7041166
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Paradise Saigon Boutique Hotel & Spa",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "288 Le Thanh Ton St, Ben Thanh Ward",
+    "lat": 10.7715483,
+    "lng": 106.6949246
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Paragon Saigon Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "22-24 Thi Sach St., Ben Nghe Ward",
+    "lat": 10.778885,
+    "lng": 106.7042869
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Royal Hotel Saigon",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "133 Nguyen Hue Blvd, Ben Nghe Ward",
+    "lat": 10.7746676,
+    "lng": 106.7025457
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "SaiGon Prince Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "yes",
+    "address": "63 Nguyen Hue Boulevard, District 1",
+    "lat": 10.7728099,
+    "lng": 106.7040688
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Signature by M Village Le Thanh Ton",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "24 Le Thanh Ton, Ben Nghe Ward",
+    "lat": 10.7731863,
+    "lng": 106.6974989
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Silverland Ben Thanh Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "14 – 16 Le Lai Street, Ben Thanh Ward, District 1",
+    "lat": 10.7716221,
+    "lng": 106.6972693
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Silverland Jolie Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "4D Thi Sach Street, Ben Nghe Ward",
+    "lat": 10.7772424,
+    "lng": 106.7058613
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Silverland Yen Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "73-75 Thu Khoa Huan Street, Ben Thanh Ward",
+    "lat": 10.774717,
+    "lng": 106.6962374
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Singita Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "84A Bùi Thị Xuân, p. Bến Thành",
+    "lat": 10.770782,
+    "lng": 106.6895467
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sky Gem Hotel Ben Thanh",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "48-50 Thu Khoa Huan, Ben Thanh",
+    "lat": 10.7745922,
+    "lng": 106.6966875
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sky Gem Hotel Central",
+    "cat": "4 boutique",
+    "area": "-",
+    "sic": "Yes",
+    "address": "26-28 Dong Du, Ben Nghe",
+    "lat": 10.7769893,
+    "lng": 106.705197
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sky Gem Hotel Sora",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "11 Thai Van Lung, Ben Nghe",
+    "lat": 10.7791316,
+    "lng": 106.704564
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Odys Boutique Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "65-67-69 Nguyen Thai Binh St, Ben Thanh Ward",
+    "lat": 10.7694123,
+    "lng": 106.7001638
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Winsuites Saigon Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "28-30-32 Le Lai Street, Ben Thanh Ward",
+    "lat": 10.7715423,
+    "lng": 106.697107
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Caravelle Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "yes",
+    "address": "19-23, Công Trường Lam Sơn",
+    "lat": 10.7766712,
+    "lng": 106.7038899
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Fusion Original Saigon Center",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "65 Le Loi, Ben Nghe Ward",
+    "lat": 10.7629275,
+    "lng": 106.7382314
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Hotel Grand Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "08 Dong Khoi Str.",
+    "lat": 10.7737083,
+    "lng": 106.7059115
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Hotel Majestic Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "01 Dong Khoi Street",
+    "lat": 10.7727782,
+    "lng": 106.7061879
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Hotel Nikko Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "235 Nguyen Van Cu Street",
+    "lat": 10.9840429,
+    "lng": 106.6296408
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Lotte Hotel HCMC",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "2A-4A Ton Duc Thang St.",
+    "lat": 10.7784231,
+    "lng": 106.706325
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Muong Thanh Grand HCMC Centre Hotel",
+    "cat": "4",
+    "area": "-",
+    "sic": "Yes",
+    "address": "No.8A, Mac Dinh Chi st., Ben Nghe Ward",
+    "lat": 10.7842336,
+    "lng": 106.7005677
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "New World Saigon Hotel",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "76 Le Lai Street",
+    "lat": 11.097237,
+    "lng": 106.6686583
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Pullman Saigon Centre",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "148 TRAN HUNG DAO BOULEVARD",
+    "lat": 10.7643018,
+    "lng": 106.6917231
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Renaissance Riverside Hotel Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "yes",
+    "address": "8-15 TON DUC THANG STREET",
+    "lat": 10.7743814,
+    "lng": 106.7063278
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Rex Hotel Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "141 Nguyen Hue Blvd",
+    "lat": 10.7755773,
+    "lng": 106.7003801
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Sedona Suites",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "67 Le Loi Boulevard",
+    "lat": 10.7702637,
+    "lng": 106.6938235
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "Somerset Chancellor Court",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "21-23 Nguyen Thi Minh Khai Street, Ben Nghe ward",
+    "lat": 10.7704005,
+    "lng": 106.6873212
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Myst Dong Khoi",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "6-8 Ho Huan Nghiep St., Ben Nghe Ward",
+    "lat": 10.7749667,
+    "lng": 106.7052152
+  },
+  {
+    "city": "HO CHI MINH CITY",
+    "name": "The Reverie Saigon",
+    "cat": "5",
+    "area": "-",
+    "sic": "Yes",
+    "address": "22-36 Nguyen Hue Boulevard & 57-69F Dong Khoi Street Saigon Ward",
+    "lat": 10.7736811,
+    "lng": 106.7046523
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "An Phu Hotel",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "185, 30/4 Street, Duong Dong Town, Phu Quoc, Kien Giang Province",
+    "lat": 10.2253668,
+    "lng": 103.9722793
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Azura Resort Phu Quoc",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "101/5 Tran Hung Dao Street, Duong Dong Town",
+    "lat": 10.2057759,
+    "lng": 103.9647489
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Bauhinia Resort & Spa Phu Quoc",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "Lot 10, Lane 91, Tran Hung Dao St., Quarter 7, Duong Dong Town, Kien Giang Province",
+    "lat": 10.2065581,
+    "lng": 103.9658862
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Boulevard Phu Quoc Hotel",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "89 Trần Hưng Đạo, khu phố 7, P. Dương Đông",
+    "lat": 10.2060729,
+    "lng": 103.9634728
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "BRENTA PHU QUOC HOTEL",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "118 Tran Hung Dao street, Duong Dong town, Phu Quoc island, Kien Giang province.",
+    "lat": 10.20724,
+    "lng": 103.9661
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Coral Bay Hotel & Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "118/12 Tran Hung Dao, Duong Dong",
+    "lat": 10.1966735,
+    "lng": 103.9664608
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Free Beach PHQ",
+    "cat": "3",
+    "area": "-",
+    "sic": "yes",
+    "address": "126A Trần Hưng Đạo, Khu Phố 7",
+    "lat": 10.1998404,
+    "lng": 103.9673708
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Gaia Hotel Phu Quoc",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "71 Tran Hung Dao, Ward 7, Duong Dong Town",
+    "lat": 10.2071216,
+    "lng": 103.9629404
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "GOLDEN DAISY HOTEL & SPA",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "Group 7, Tran Hung Dao Street, Duong Dong Ward, Phu Quoc City,",
+    "lat": 10.2109034,
+    "lng": 103.9617701
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Hawaii Resort Phu Quoc",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "68 Đường Trần Hưng Đạo, Khu phố 7, Phú Quốc",
+    "lat": 10.2204132,
+    "lng": 103.9632756
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Home Park Hotel",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "Hẻm 124 Tran Hung Dao Street, Duong Dong Ward, Phu Quoc City, Kien Giang Province",
+    "lat": 10.1930096,
+    "lng": 103.9671051
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Kim Hoa Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "88/2 Đường Trần Hưng Đạo, Khu phố 7, Phú Quốc",
+    "lat": 10.2204124,
+    "lng": 103.9632738
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Lamer resort & spa",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "118/2/6, Trần Hưng Đạo, Dương Đông",
+    "lat": 10.20724,
+    "lng": 103.9661
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Night Sea Hotel",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "Alley 124 Tran Hung Dao street, Duong Dong Ward",
+    "lat": 10.2003302,
+    "lng": 103.966438
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Ngoc Chau Phu Quoc Hotel",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "66G Trần Hưng Đạo, phường Dương Đông, TP Phú Quốc",
+    "lat": 10.2076374,
+    "lng": 103.9622536
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Orange Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "88/5 Trần Hưng Đạo, Dương Đông",
+    "lat": 10.2051838,
+    "lng": 103.9634902
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Palma Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "107/9 Tran Hung Dao Str",
+    "lat": 10.2022403,
+    "lng": 103.9648241
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Lavender Resort Phu Quoc",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "107/1 Trần Hưng Đạo, Đặc KhuPhúQuốc",
+    "lat": 10.2022403,
+    "lng": 103.9648241
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Phu Quoc Village",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "52B/26 Đ. 30 Tháng 4, TT. Dương Đông",
+    "lat": 10.2138703,
+    "lng": 103.9633056
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Phu Van Resort PHQ",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "126 Đường Trần Hưng Đạo, TT. Dương Đông",
+    "lat": 10.1998404,
+    "lng": 103.9673708
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Rock Mila Phu Quoc Hotel",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "63/7 Tran Hung Dao Street, Duong Dong Town",
+    "lat": 10.2109034,
+    "lng": 103.9617701
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Star Hill Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "Tran Hung Dao, Ward 07, Duong Dong Town, Phu Quoc",
+    "lat": 10.2051358,
+    "lng": 103.9637468
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Summer Dream",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "Group 8 , Tran Hung Dao Street, Quarter 7, Duong Dong Town, Phu Quoc,",
+    "lat": 10.2142753,
+    "lng": 103.9589645
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Tahiti Central Hotel",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "51 – 53 Tran Hung Dao Street, Duong Dong Ward",
+    "lat": 10.207919,
+    "lng": 103.9622897
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Thanh Kieu Beach Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "100c/14 Tran Hung Dao, Duong Dong Town, Phu Quoc Island",
+    "lat": 10.1978599,
+    "lng": 103.9635698
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "The Praha Hotel Phu Quoc",
+    "cat": "3",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Tran Hung Dao Street, Duong To",
+    "lat": 10.1902764,
+    "lng": 103.9677063
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Tropicana Resort Phu Quoc",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "100c/4, ward 7, Tran Hung Đao,Duong Dong Town",
+    "lat": 10.2109034,
+    "lng": 103.9617701
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Venus Hotel PQ",
+    "cat": "3",
+    "area": "Duong DOng",
+    "sic": "yes",
+    "address": "Số 60A, đường Trần HưngĐạo, Dương Đông,",
+    "lat": 10.2105615,
+    "lng": 103.9600396
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "VIDA LOCA RESORT & SUNSET BEACH BAR",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "118/11 Tran Hung Dao, Duong Dong, Phu Quoc",
+    "lat": 10.20724,
+    "lng": 103.9661
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Levan Hotel Phu Quoc",
+    "cat": "3+",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "Số 79, Đường Trần Hưng Đạo, Thị trấn Dương Đông",
+    "lat": 10.2064764,
+    "lng": 103.9631857
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Amarin Resort & Spa",
+    "cat": "4",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Group 2, Cua Lap Hamlet, Duong To Commune",
+    "lat": 10.1775183,
+    "lng": 103.971782
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Aquasun Hotel",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "Allley 124, Tran Hung Dao, Ward 7, Duong Dong, Phu Quoc, Kien Giang",
+    "lat": 10.2003302,
+    "lng": 103.966438
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Anja Beach Resort & Spa Phu Quoc",
+    "cat": "4",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Group 2, Cua Lap Area",
+    "lat": 10.1788272,
+    "lng": 103.9726306
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "AVS Hotel Phu Quoc",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "100/C2 Tran Hung Dao, Duong Dong Town",
+    "lat": 10.2017342,
+    "lng": 103.9644833
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Daystar Hotel Phu Quoc",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "69B Tran Hung Dao Street, Quarter 7, Duong Dong, Phu Quoc Special Zone, An Giang Province",
+    "lat": 10.2099136,
+    "lng": 103.9624537
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Cassia Cottage Resort",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "KP 7, Tran Hung Dao St, Duong Dong Town, Phu Quoc, Kien Giang, Vietnam",
+    "lat": 10.2109034,
+    "lng": 103.9617701
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "L'Azure Resort and Spa",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "64, Tran Hung Dao Street, Duong Dong Town, Phu Quoc Island, Kien Giang Province, Vietnam.",
+    "lat": 10.2069617,
+    "lng": 103.9623338
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Lahana Resort Phu Quoc & Spa",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "91/3 Group 10, Ward 7, Tran Hung Dao Street",
+    "lat": 10.2008815,
+    "lng": 103.9715436
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Luxor Boutique Hotel Phu Quoc",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "100C/2 Tran Hung Dao, Group 7, Duong Dong Ward",
+    "lat": 10.2005938,
+    "lng": 103.9647645
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "M Hotel Phu Quoc",
+    "cat": "4",
+    "area": "Duong DOng",
+    "sic": "Yes",
+    "address": "46 Tran Hung Dao, Duong Dong",
+    "lat": 10.2131218,
+    "lng": 103.9587855
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Maris Beach Hotel",
+    "cat": "4",
+    "area": "Duong To",
+    "sic": "yes",
+    "address": "152 Tran Hung Dao, Phu Quoc, Vietnam",
+    "lat": 10.1885687,
+    "lng": 103.9684928
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Phu Quoc Ocean Pearl Hotel",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "99 Tran Hung Dao Street",
+    "lat": 10.204855,
+    "lng": 103.9642769
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Saigon Phu Quoc resort and spa",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "yes",
+    "address": "62 Trần Hưng Đạo, Dương Đông, Đảo Phú Quốc,",
+    "lat": 10.2085133,
+    "lng": 103.9607626
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Sunset Beach Resort & Spa",
+    "cat": "4",
+    "area": "Duong DOng",
+    "sic": "Yes",
+    "address": "100C/2 Tran Hung Dao Str, Duong Dong",
+    "lat": 10.2005938,
+    "lng": 103.9647645
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Tahiti Beach Hotel",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "92A Tran Hung Dao",
+    "lat": 10.2037553,
+    "lng": 103.9641392
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Tahiti Resort",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "90 - 92 Tran Hung Dao",
+    "lat": 10.2032315,
+    "lng": 103.9641453
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "The Palmy Phu Quoc Resort & Spa",
+    "cat": "4",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Tran Hung Dao street, Cua Lap, Duong To",
+    "lat": 10.1902764,
+    "lng": 103.9677063
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "The Up Phu Quoc Hotel",
+    "cat": "4",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Plot of land number 253, map sheet number 10, civil group 3, Cua Lap Hamlet, Duong To Commune",
+    "lat": 10.1775183,
+    "lng": 103.971782
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Tom Hill Boutique Resort & Spa",
+    "cat": "4",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "121|12A Tran Hung Dao Street, Duong Dong Ward",
+    "lat": 10.2013518,
+    "lng": 103.9691641
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Andochine Resort & Spa",
+    "cat": "5",
+    "area": "Duong To",
+    "sic": "yes",
+    "address": "Duong Bao, Duong To Commune, Phu Quoc",
+    "lat": 10.1775183,
+    "lng": 103.971782
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Dusit Princess Moonrise Beach Resort Phu Quoc",
+    "cat": "5",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Tran Hung Dao Street, Group 2, Cua Lap Village, Duong To Commune",
+    "lat": 10.1857758,
+    "lng": 103.9684888
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "La Veranda Resort Phu Quoc - MGallery",
+    "cat": "5",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "Tran Hung Dao Street, Quarter 7",
+    "lat": 10.1725825,
+    "lng": 103.9706254
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Novotel Phu Quoc Resort",
+    "cat": "5",
+    "area": "Bai Truong",
+    "sic": "yes",
+    "address": "Group 5, Duong Bao Duong To Area",
+    "lat": 10.1902764,
+    "lng": 103.9677063
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Seashells Phu Quoc Hotel & Spa",
+    "cat": "5",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "01 Vo Thi Sau, Ward 2 Duong Dong",
+    "lat": 10.2144247,
+    "lng": 103.9584688
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Sunset Sanato Resort & Villas",
+    "cat": "5",
+    "area": "Bai Truong",
+    "sic": "Yes",
+    "address": "Group 3, Duong Bao Hamlet",
+    "lat": 10.1310547,
+    "lng": 103.9898233
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Sun Viet Resort",
+    "cat": "3",
+    "area": "Duong Dong",
+    "sic": "Yes",
+    "address": "60 Đường Trần Hưng Đạo, Khu 1, Phú Quốc, Kiên Giang",
+    "lat": 10.2104339,
+    "lng": 103.9601008
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Sea Star Resort Phu Quoc",
+    "cat": "3",
+    "area": "Duong DOng",
+    "sic": "yes",
+    "address": "98/2 Đường Trần Hưng Đạo, Phường 7, Phú Quốc, Kiên Giang 700000",
+    "lat": 10.2204126,
+    "lng": 103.9632744
+  },
+  {
+    "city": "PHU QUOC",
+    "name": "Daisy Resort",
+    "cat": "3",
+    "area": "Duong To",
+    "sic": "Yes",
+    "address": "127 Trần Hưng Đạo, Dương Đông, Phú Quốc, Kiên Giang",
+    "lat": 10.1989808,
+    "lng": 103.9694207
+  }
+]

@@ -44,6 +44,54 @@
       opacity: 0.85;
     }
 
+    /* ── Sheet Tabs ── */
+    .sheet-tabs {
+      display: flex;
+      border-bottom: 1px solid #e0e0e0;
+      background: #f8f9fa;
+    }
+
+    .sheet-tab {
+      flex: 1;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: #666;
+      border-bottom: 3px solid transparent;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+
+    .sheet-tab:hover {
+      color: #333;
+      background: #eef1f5;
+    }
+
+    .sheet-tab.active {
+      color: #0d6efd;
+      border-bottom-color: #0d6efd;
+      background: #fff;
+    }
+
+    .sheet-tab .tab-count {
+      display: inline-block;
+      background: #e0e0e0;
+      color: #555;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: 10px;
+      margin-left: 6px;
+    }
+
+    .sheet-tab.active .tab-count {
+      background: #d6e4ff;
+      color: #0d6efd;
+    }
+
     /* Filters */
     .filters {
       padding: 12px 22px;
@@ -257,6 +305,15 @@
     <p>Hanoi · Da Nang · Ho Chi Minh City · Phu Quoc</p>
   </div>
 
+  <div class="sheet-tabs">
+    <button class="sheet-tab active" data-sheet="sheet1" onclick="switchSheet('sheet1')">
+      Sheet 1 <span class="tab-count" id="sheet1Count">0</span>
+    </button>
+    <button class="sheet-tab" data-sheet="sheet2" onclick="switchSheet('sheet2')">
+      Sheet 2 <span class="tab-count" id="sheet2Count">0</span>
+    </button>
+  </div>
+
   <div class="filters">
     <input type="text" class="search-box" id="searchInput" placeholder="Search hotel name or address…">
     <select class="filter-select" id="cityFilter">
@@ -281,15 +338,31 @@
 <div id="map"></div>
 
 <script>
-let HOTELS = [];
+// ── Data stores ──
+const DATASETS = {
+  sheet1: { hotels: [], markers: [], file: 'hotels_geocoded.json', loaded: false },
+  sheet2: { hotels: [], markers: [], file: 'hotels_sheet2.json', loaded: false }
+};
+let activeSheet = 'sheet1';
+let map, infoWindow, activeCardIdx = null;
+let datasetsLoaded = 0;
 
-fetch('hotels_geocoded.json')
-  .then(r => r.json())
-  .then(data => {
-    HOTELS = data.filter(h => h.lat && h.lng);
-    if (typeof google !== 'undefined' && google.maps) initMap();
-    else window._hotelsReady = true;
-  });
+// Load both datasets
+Promise.all([
+  fetch('hotels_geocoded.json').then(r => r.json()),
+  fetch('hotels_sheet2.json').then(r => r.json())
+]).then(([data1, data2]) => {
+  DATASETS.sheet1.hotels = data1.filter(h => h.lat && h.lng);
+  DATASETS.sheet1.loaded = true;
+  DATASETS.sheet2.hotels = data2.filter(h => h.lat && h.lng);
+  DATASETS.sheet2.loaded = true;
+
+  document.getElementById('sheet1Count').textContent = DATASETS.sheet1.hotels.length;
+  document.getElementById('sheet2Count').textContent = DATASETS.sheet2.hotels.length;
+
+  if (typeof google !== 'undefined' && google.maps) initMap();
+  else window._hotelsReady = true;
+});
 
 // Color map by category
 const CAT_COLORS = {
@@ -301,10 +374,13 @@ const CAT_COLORS = {
   "5":  { bg: "#EA4335", glyph: "5★" }
 };
 
-let map, markers = [], infoWindow, activeCardIdx = null;
+function getActiveData() {
+  return DATASETS[activeSheet];
+}
 
 function initMap() {
-  if (!HOTELS.length) { window._mapReady = true; return; }
+  const ds = getActiveData();
+  if (!ds.hotels.length) { window._mapReady = true; return; }
 
   const center = { lat: 16.0, lng: 108.0 };
 
@@ -327,8 +403,26 @@ function initMap() {
 
   infoWindow = new google.maps.InfoWindow();
 
-  // Create markers
-  HOTELS.forEach((h, i) => {
+  // Create markers for both sheets
+  createMarkersForSheet('sheet1');
+  createMarkersForSheet('sheet2');
+
+  // Hide sheet2 markers initially
+  DATASETS.sheet2.markers.forEach(m => m.setMap(null));
+
+  populateFilters();
+  document.getElementById("totalCount").textContent = ds.hotels.length;
+
+  renderList();
+  fitBounds();
+  bindFilters();
+}
+
+function createMarkersForSheet(sheetKey) {
+  const ds = DATASETS[sheetKey];
+  ds.markers = [];
+
+  ds.hotels.forEach((h, i) => {
     if (!h.lat || !h.lng) return;
     const catInfo = CAT_COLORS[h.cat] || CAT_COLORS["3"];
 
@@ -353,18 +447,56 @@ function initMap() {
     });
 
     marker.hotelIndex = i;
+    marker._sheetKey = sheetKey;
 
     marker.addListener("click", () => {
+      if (activeSheet !== sheetKey) return;
       openInfoWindow(i);
       highlightCard(i);
     });
 
-    markers.push(marker);
+    ds.markers.push(marker);
   });
+}
+
+function switchSheet(sheetKey) {
+  if (activeSheet === sheetKey) return;
+
+  // Hide current sheet's markers
+  DATASETS[activeSheet].markers.forEach(m => m.setMap(null));
+
+  activeSheet = sheetKey;
+  activeCardIdx = null;
+
+  // Show new sheet's markers
+  DATASETS[activeSheet].markers.forEach(m => m.setMap(map));
+
+  // Update tab UI
+  document.querySelectorAll('.sheet-tab').forEach(t => t.classList.remove('active'));
+  document.querySelector(`.sheet-tab[data-sheet="${sheetKey}"]`).classList.add('active');
+
+  // Reset filters
+  document.getElementById('searchInput').value = '';
+
+  // Repopulate filters for new dataset
+  populateFilters();
+
+  const ds = getActiveData();
+  document.getElementById("totalCount").textContent = ds.hotels.length;
+
+  infoWindow.close();
+  renderList();
+  fitBounds();
+}
+
+function populateFilters() {
+  const ds = getActiveData();
+  const hotels = ds.hotels;
 
   // Populate city filter
-  const cities = [...new Set(HOTELS.map(h => h.city))].sort();
+  const cities = [...new Set(hotels.map(h => h.city))].sort();
   const cityFilter = document.getElementById("cityFilter");
+  cityFilter.innerHTML = '<option value="">All Cities</option>';
   cities.forEach(c => {
     const opt = document.createElement("option");
     opt.value = c;
@@ -373,8 +505,9 @@ function initMap() {
   });
 
   // Populate cat filter
-  const cats = [...new Set(HOTELS.map(h => h.cat))].sort((a, b) => parseFloat(a) - parseFloat(b));
+  const cats = [...new Set(hotels.map(h => h.cat))].sort((a, b) => parseFloat(a) - parseFloat(b));
   const catFilter = document.getElementById("catFilter");
+  catFilter.innerHTML = '<option value="">All Stars</option>';
   cats.forEach(c => {
     const opt = document.createElement("option");
     opt.value = c;
@@ -383,17 +516,12 @@ function initMap() {
   });
 
   populateAreaFilter();
-
-  document.getElementById("totalCount").textContent = HOTELS.length;
-
-  renderList();
-  fitBounds();
-  bindFilters();
 }
 
 function populateAreaFilter() {
+  const ds = getActiveData();
   const cityVal = document.getElementById("cityFilter").value;
-  const filtered = cityVal ? HOTELS.filter(h => h.city === cityVal) : HOTELS;
+  const filtered = cityVal ? ds.hotels.filter(h => h.city === cityVal) : ds.hotels;
   const areas = [...new Set(filtered.map(h => h.area).filter(a => a && a !== "-"))].sort();
   const areaFilter = document.getElementById("areaFilter");
   areaFilter.innerHTML = '<option value="">All Areas</option>';
@@ -406,7 +534,8 @@ function populateAreaFilter() {
 }
 
 function fitBounds() {
-  const visible = markers.filter(m => m.getVisible());
+  const ds = getActiveData();
+  const visible = ds.markers.filter(m => m.getMap() && m.getVisible());
   if (!visible.length) return;
   const bounds = new google.maps.LatLngBounds();
   visible.forEach(m => bounds.extend(m.getPosition()));
@@ -419,7 +548,8 @@ function getStars(cat) {
 }
 
 function openInfoWindow(idx) {
-  const h = HOTELS[idx];
+  const ds = getActiveData();
+  const h = ds.hotels[idx];
   const stars = getStars(h.cat);
   const sicLabel = h.sic.toLowerCase() === "yes"
     ? '<span style="color:#155724;font-weight:600">✓ SIC Pick Up</span>'
@@ -440,8 +570,8 @@ function openInfoWindow(idx) {
   `;
 
   infoWindow.setContent(content);
-  infoWindow.open(map, markers[idx]);
-  map.panTo(markers[idx].getPosition());
+  infoWindow.open(map, ds.markers[idx]);
+  map.panTo(ds.markers[idx].getPosition());
 }
 
 function highlightCard(idx) {
@@ -455,6 +585,7 @@ function highlightCard(idx) {
 }
 
 function renderList() {
+  const ds = getActiveData();
   const query = document.getElementById("searchInput").value.toLowerCase();
   const cityVal = document.getElementById("cityFilter").value;
   const catVal = document.getElementById("catFilter").value;
@@ -464,7 +595,7 @@ function renderList() {
   let html = "";
   let count = 0;
 
-  HOTELS.forEach((h, i) => {
+  ds.hotels.forEach((h, i) => {
     const matchSearch = !query
       || h.name.toLowerCase().includes(query)
       || h.address.toLowerCase().includes(query);
@@ -474,7 +605,7 @@ function renderList() {
 
     const visible = matchSearch && matchCity && matchCat && matchArea;
 
-    if (markers[i]) markers[i].setVisible(visible);
+    if (ds.markers[i]) ds.markers[i].setVisible(visible);
 
     if (!visible) return;
     count++;
@@ -533,7 +664,7 @@ function escapeHtml(str) {
 </script>
 <script>
 function onMapsReady() {
-  if (HOTELS.length) initMap();
+  if (DATASETS.sheet1.loaded) initMap();
   else window._mapReady = true;
 }
 </script>
